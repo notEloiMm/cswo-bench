@@ -1,0 +1,47 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets and raw downloads (raw data contains personal data; never commit)
+.env
+data/raw/
+data/interim/
+*.zip
+*.log
+
+# Working corpus files; the published corpus is data/release/ (built by the packaging step, spec 12)
+data/processed/
+
+# Annotator identities and raw Label Studio exports (contain e-mails)
+data/gold/annotators.local.yaml
+
+# Office lock files
+~$*
+
+# Overleaf upload bundle (rebuild from report/)
+cswo_report_overleaf.zip
+
+# LaTeX build files (report.pdf is committed)
+report/*.aux
+report/*.log
+report/*.bbl
+report/*.blg
+report/*.out
+report/*.toc
+
+# Label Studio task files (regenerate with: uv run python -m cswo.annotate.tasks)
+data/gold/labelstudio/
+
+# Local copies kept out of the repo (course PDF, presentation)
+List_of_Potential_Project_NLP_2026N-2.pdf
+*.pptx
+presentation_script.md
+report/presentation_script.md
+report/notes/

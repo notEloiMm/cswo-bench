@@ -1,0 +1,199 @@
+task,model,stopwords removed,class,support,P,R,F1
+habitat,distilbert-multilingual,False,brant bäck i barrskog,14,1.0,0.929,0.963
+habitat,distilbert-multilingual,False,bäck,4,0.133,0.5,0.211
+habitat,distilbert-multilingual,False,damm,4,0.5,0.75,0.6
+habitat,distilbert-multilingual,False,fors i medelstor å,14,1.0,1.0,1.0
+habitat,distilbert-multilingual,False,"kall, liten bäck i barrskog",5,0.833,1.0,0.909
+habitat,distilbert-multilingual,False,sjö,21,1.0,0.143,0.25
+habitat,distilbert-multilingual,False,sjöstrand,2,0.4,1.0,0.571
+habitat,distilbert-multilingual,False,vattendrag,37,0.829,0.919,0.872
+habitat,distilbert-multilingual,False,älv,3,1.0,0.333,0.5
+habitat,distilbert-multilingual,False,å,13,0.462,0.462,0.462
+habitat,distilbert-multilingual,True,brant bäck i barrskog,14,1.0,0.786,0.88
+habitat,distilbert-multilingual,True,bäck,4,0.222,0.5,0.308
+habitat,distilbert-multilingual,True,damm,4,0.6,0.75,0.667
+habitat,distilbert-multilingual,True,fors i medelstor å,14,1.0,1.0,1.0
+habitat,distilbert-multilingual,True,"kall, liten bäck i barrskog",5,0.625,1.0,0.769
+habitat,distilbert-multilingual,True,sjö,21,1.0,0.19,0.32
+habitat,distilbert-multilingual,True,sjöstrand,2,0.4,1.0,0.571
+habitat,distilbert-multilingual,True,vattendrag,37,0.85,0.919,0.883
+habitat,distilbert-multilingual,True,älv,3,0.4,0.667,0.5
+habitat,distilbert-multilingual,True,å,13,0.562,0.692,0.621
+habitat,majority,False,brant bäck i barrskog,14,0.0,0.0,0.0
+habitat,majority,False,bäck,4,0.0,0.0,0.0
+habitat,majority,False,damm,4,0.0,0.0,0.0
+habitat,majority,False,fors i medelstor å,14,0.0,0.0,0.0
+habitat,majority,False,"kall, liten bäck i barrskog",5,0.0,0.0,0.0
+habitat,majority,False,sjö,21,0.0,0.0,0.0
+habitat,majority,False,sjöstrand,2,0.0,0.0,0.0
+habitat,majority,False,vattendrag,37,0.316,1.0,0.481
+habitat,majority,False,älv,3,0.0,0.0,0.0
+habitat,majority,False,å,13,0.0,0.0,0.0
+habitat,qwen2.5-7b (zero-shot llm),False,brant bäck i barrskog,14,0.0,0.0,0.0
+habitat,qwen2.5-7b (zero-shot llm),False,bäck,4,0.027,0.75,0.052
+habitat,qwen2.5-7b (zero-shot llm),False,damm,4,0.0,0.0,0.0
+habitat,qwen2.5-7b (zero-shot llm),False,fors i medelstor å,14,0.0,0.0,0.0
+habitat,qwen2.5-7b (zero-shot llm),False,"kall, liten bäck i barrskog",5,0.0,0.0,0.0
+habitat,qwen2.5-7b (zero-shot llm),False,sjö,21,1.0,0.048,0.091
+habitat,qwen2.5-7b (zero-shot llm),False,sjöstrand,2,0.0,0.0,0.0
+habitat,qwen2.5-7b (zero-shot llm),False,vattendrag,37,0.0,0.0,0.0
+habitat,qwen2.5-7b (zero-shot llm),False,älv,3,0.0,0.0,0.0
+habitat,qwen2.5-7b (zero-shot llm),False,å,13,0.0,0.0,0.0
+habitat,qwen2.5-vl-7b (zero-shot vlm),False,brant bäck i barrskog,14,0.167,0.071,0.1
+habitat,qwen2.5-vl-7b (zero-shot vlm),False,bäck,4,0.035,0.75,0.067
+habitat,qwen2.5-vl-7b (zero-shot vlm),False,damm,4,0.0,0.0,0.0
+habitat,qwen2.5-vl-7b (zero-shot vlm),False,fors i medelstor å,14,0.0,0.0,0.0
+habitat,qwen2.5-vl-7b (zero-shot vlm),False,"kall, liten bäck i barrskog",5,0.0,0.0,0.0
+habitat,qwen2.5-vl-7b (zero-shot vlm),False,sjö,21,0.429,0.143,0.214
+habitat,qwen2.5-vl-7b (zero-shot vlm),False,sjöstrand,2,0.0,0.0,0.0
+habitat,qwen2.5-vl-7b (zero-shot vlm),False,vattendrag,37,0.0,0.0,0.0
+habitat,qwen2.5-vl-7b (zero-shot vlm),False,älv,3,0.0,0.0,0.0
+habitat,qwen2.5-vl-7b (zero-shot vlm),False,å,13,0.0,0.0,0.0
+habitat,tfidf-char+svm,False,brant bäck i barrskog,14,1.0,1.0,1.0
+habitat,tfidf-char+svm,False,bäck,4,0.125,0.25,0.167
+habitat,tfidf-char+svm,False,damm,4,0.0,0.0,0.0
+habitat,tfidf-char+svm,False,fors i medelstor å,14,1.0,1.0,1.0
+habitat,tfidf-char+svm,False,"kall, liten bäck i barrskog",5,1.0,1.0,1.0
+habitat,tfidf-char+svm,False,sjö,21,0.625,0.476,0.541
+habitat,tfidf-char+svm,False,sjöstrand,2,0.667,1.0,0.8
+habitat,tfidf-char+svm,False,vattendrag,37,0.919,0.919,0.919
+habitat,tfidf-char+svm,False,älv,3,0.75,1.0,0.857
+habitat,tfidf-char+svm,False,å,13,0.625,0.769,0.69
+habitat,tfidf-char+svm,True,brant bäck i barrskog,14,1.0,1.0,1.0
+habitat,tfidf-char+svm,True,bäck,4,0.125,0.25,0.167
+habitat,tfidf-char+svm,True,damm,4,0.0,0.0,0.0
+habitat,tfidf-char+svm,True,fors i medelstor å,14,1.0,1.0,1.0
+habitat,tfidf-char+svm,True,"kall, liten bäck i barrskog",5,1.0,1.0,1.0
+habitat,tfidf-char+svm,True,sjö,21,0.667,0.476,0.556
+habitat,tfidf-char+svm,True,sjöstrand,2,0.667,1.0,0.8
+habitat,tfidf-char+svm,True,vattendrag,37,0.919,0.919,0.919
+habitat,tfidf-char+svm,True,älv,3,0.6,1.0,0.75
+habitat,tfidf-char+svm,True,å,13,0.625,0.769,0.69
+habitat,tfidf-word+svm,False,brant bäck i barrskog,14,1.0,1.0,1.0
+habitat,tfidf-word+svm,False,bäck,4,0.4,0.5,0.444
+habitat,tfidf-word+svm,False,damm,4,0.5,0.25,0.333
+habitat,tfidf-word+svm,False,fors i medelstor å,14,1.0,1.0,1.0
+habitat,tfidf-word+svm,False,"kall, liten bäck i barrskog",5,1.0,1.0,1.0
+habitat,tfidf-word+svm,False,sjö,21,0.692,0.429,0.529
+habitat,tfidf-word+svm,False,sjöstrand,2,0.5,1.0,0.667
+habitat,tfidf-word+svm,False,vattendrag,37,0.85,0.919,0.883
+habitat,tfidf-word+svm,False,älv,3,0.6,1.0,0.75
+habitat,tfidf-word+svm,False,å,13,0.6,0.692,0.643
+habitat,tfidf-word+svm,True,brant bäck i barrskog,14,1.0,1.0,1.0
+habitat,tfidf-word+svm,True,bäck,4,0.4,0.5,0.444
+habitat,tfidf-word+svm,True,damm,4,0.5,0.25,0.333
+habitat,tfidf-word+svm,True,fors i medelstor å,14,1.0,1.0,1.0
+habitat,tfidf-word+svm,True,"kall, liten bäck i barrskog",5,1.0,1.0,1.0
+habitat,tfidf-word+svm,True,sjö,21,0.692,0.429,0.529
+habitat,tfidf-word+svm,True,sjöstrand,2,0.5,1.0,0.667
+habitat,tfidf-word+svm,True,vattendrag,37,0.85,0.919,0.883
+habitat,tfidf-word+svm,True,älv,3,0.5,1.0,0.667
+habitat,tfidf-word+svm,True,å,13,0.643,0.692,0.667
+water_level,distilbert-multilingual,False,+1,49,0.5,0.143,0.222
+water_level,distilbert-multilingual,False,+2,27,0.208,0.407,0.275
+water_level,distilbert-multilingual,False,+3,11,0.0,0.0,0.0
+water_level,distilbert-multilingual,False,+4,5,0.182,0.4,0.25
+water_level,distilbert-multilingual,False,+5,8,0.0,0.0,0.0
+water_level,distilbert-multilingual,False,+7,6,0.091,0.167,0.118
+water_level,distilbert-multilingual,False,-1,29,0.286,0.138,0.186
+water_level,distilbert-multilingual,False,-2,20,0.125,0.2,0.154
+water_level,distilbert-multilingual,False,-3,18,0.462,0.333,0.387
+water_level,distilbert-multilingual,False,-4,14,0.231,0.643,0.34
+water_level,distilbert-multilingual,False,-5,3,0.0,0.0,0.0
+water_level,distilbert-multilingual,False,-6,10,0.0,0.0,0.0
+water_level,distilbert-multilingual,True,+1,49,0.467,0.143,0.219
+water_level,distilbert-multilingual,True,+2,27,0.204,0.407,0.272
+water_level,distilbert-multilingual,True,+3,11,0.0,0.0,0.0
+water_level,distilbert-multilingual,True,+4,5,0.182,0.4,0.25
+water_level,distilbert-multilingual,True,+5,8,0.0,0.0,0.0
+water_level,distilbert-multilingual,True,+7,6,0.067,0.167,0.095
+water_level,distilbert-multilingual,True,-1,29,0.25,0.241,0.246
+water_level,distilbert-multilingual,True,-2,20,0.172,0.25,0.204
+water_level,distilbert-multilingual,True,-3,18,0.462,0.333,0.387
+water_level,distilbert-multilingual,True,-4,14,0.278,0.357,0.312
+water_level,distilbert-multilingual,True,-5,3,0.0,0.0,0.0
+water_level,distilbert-multilingual,True,-6,10,0.0,0.0,0.0
+water_level,majority,False,+1,49,0.245,1.0,0.394
+water_level,majority,False,+2,27,0.0,0.0,0.0
+water_level,majority,False,+3,11,0.0,0.0,0.0
+water_level,majority,False,+4,5,0.0,0.0,0.0
+water_level,majority,False,+5,8,0.0,0.0,0.0
+water_level,majority,False,+7,6,0.0,0.0,0.0
+water_level,majority,False,-1,29,0.0,0.0,0.0
+water_level,majority,False,-2,20,0.0,0.0,0.0
+water_level,majority,False,-3,18,0.0,0.0,0.0
+water_level,majority,False,-4,14,0.0,0.0,0.0
+water_level,majority,False,-5,3,0.0,0.0,0.0
+water_level,majority,False,-6,10,0.0,0.0,0.0
+water_level,qwen2.5-7b (zero-shot llm),False,+1,49,0.35,0.857,0.497
+water_level,qwen2.5-7b (zero-shot llm),False,+2,27,0.138,0.148,0.143
+water_level,qwen2.5-7b (zero-shot llm),False,+3,11,0.5,0.091,0.154
+water_level,qwen2.5-7b (zero-shot llm),False,+4,5,0.0,0.0,0.0
+water_level,qwen2.5-7b (zero-shot llm),False,+5,8,0.4,0.25,0.308
+water_level,qwen2.5-7b (zero-shot llm),False,+7,6,0.667,0.333,0.444
+water_level,qwen2.5-7b (zero-shot llm),False,-1,29,0.455,0.172,0.25
+water_level,qwen2.5-7b (zero-shot llm),False,-2,20,1.0,0.15,0.261
+water_level,qwen2.5-7b (zero-shot llm),False,-3,18,0.8,0.222,0.348
+water_level,qwen2.5-7b (zero-shot llm),False,-4,14,1.0,0.286,0.444
+water_level,qwen2.5-7b (zero-shot llm),False,-5,3,1.0,0.667,0.8
+water_level,qwen2.5-7b (zero-shot llm),False,-6,10,0.5,0.3,0.375
+water_level,qwen2.5-vl-7b (zero-shot vlm),False,+1,49,0.33,0.653,0.438
+water_level,qwen2.5-vl-7b (zero-shot vlm),False,+2,27,0.0,0.0,0.0
+water_level,qwen2.5-vl-7b (zero-shot vlm),False,+3,11,0.333,0.273,0.3
+water_level,qwen2.5-vl-7b (zero-shot vlm),False,+4,5,0.0,0.0,0.0
+water_level,qwen2.5-vl-7b (zero-shot vlm),False,+5,8,1.0,0.125,0.222
+water_level,qwen2.5-vl-7b (zero-shot vlm),False,+7,6,1.0,0.167,0.286
+water_level,qwen2.5-vl-7b (zero-shot vlm),False,-1,29,0.304,0.241,0.269
+water_level,qwen2.5-vl-7b (zero-shot vlm),False,-2,20,0.2,0.35,0.255
+water_level,qwen2.5-vl-7b (zero-shot vlm),False,-3,18,0.385,0.278,0.323
+water_level,qwen2.5-vl-7b (zero-shot vlm),False,-4,14,0.8,0.286,0.421
+water_level,qwen2.5-vl-7b (zero-shot vlm),False,-5,3,1.0,0.667,0.8
+water_level,qwen2.5-vl-7b (zero-shot vlm),False,-6,10,0.75,0.6,0.667
+water_level,tfidf-char+svm,False,+1,49,0.444,0.245,0.316
+water_level,tfidf-char+svm,False,+2,27,0.196,0.407,0.265
+water_level,tfidf-char+svm,False,+3,11,0.143,0.091,0.111
+water_level,tfidf-char+svm,False,+4,5,0.222,0.4,0.286
+water_level,tfidf-char+svm,False,+5,8,0.0,0.0,0.0
+water_level,tfidf-char+svm,False,+7,6,0.25,0.167,0.2
+water_level,tfidf-char+svm,False,-1,29,0.311,0.483,0.378
+water_level,tfidf-char+svm,False,-2,20,0.034,0.05,0.041
+water_level,tfidf-char+svm,False,-3,18,0.167,0.056,0.083
+water_level,tfidf-char+svm,False,-4,14,0.333,0.143,0.2
+water_level,tfidf-char+svm,False,-5,3,0.0,0.0,0.0
+water_level,tfidf-char+svm,False,-6,10,0.4,0.2,0.267
+water_level,tfidf-char+svm,True,+1,49,0.458,0.224,0.301
+water_level,tfidf-char+svm,True,+2,27,0.207,0.444,0.282
+water_level,tfidf-char+svm,True,+3,11,0.2,0.182,0.19
+water_level,tfidf-char+svm,True,+4,5,0.25,0.4,0.308
+water_level,tfidf-char+svm,True,+5,8,0.0,0.0,0.0
+water_level,tfidf-char+svm,True,+7,6,0.143,0.167,0.154
+water_level,tfidf-char+svm,True,-1,29,0.35,0.483,0.406
+water_level,tfidf-char+svm,True,-2,20,0.038,0.05,0.043
+water_level,tfidf-char+svm,True,-3,18,0.2,0.111,0.143
+water_level,tfidf-char+svm,True,-4,14,0.5,0.143,0.222
+water_level,tfidf-char+svm,True,-5,3,0.0,0.0,0.0
+water_level,tfidf-char+svm,True,-6,10,0.333,0.2,0.25
+water_level,tfidf-word+svm,False,+1,49,0.406,0.265,0.321
+water_level,tfidf-word+svm,False,+2,27,0.196,0.407,0.265
+water_level,tfidf-word+svm,False,+3,11,0.182,0.182,0.182
+water_level,tfidf-word+svm,False,+4,5,0.167,0.2,0.182
+water_level,tfidf-word+svm,False,+5,8,0.333,0.25,0.286
+water_level,tfidf-word+svm,False,+7,6,0.0,0.0,0.0
+water_level,tfidf-word+svm,False,-1,29,0.176,0.207,0.19
+water_level,tfidf-word+svm,False,-2,20,0.125,0.15,0.136
+water_level,tfidf-word+svm,False,-3,18,0.167,0.056,0.083
+water_level,tfidf-word+svm,False,-4,14,0.267,0.286,0.276
+water_level,tfidf-word+svm,False,-5,3,0.0,0.0,0.0
+water_level,tfidf-word+svm,False,-6,10,0.25,0.1,0.143
+water_level,tfidf-word+svm,True,+1,49,0.429,0.245,0.312
+water_level,tfidf-word+svm,True,+2,27,0.203,0.444,0.279
+water_level,tfidf-word+svm,True,+3,11,0.154,0.182,0.167
+water_level,tfidf-word+svm,True,+4,5,0.286,0.4,0.333
+water_level,tfidf-word+svm,True,+5,8,0.2,0.125,0.154
+water_level,tfidf-word+svm,True,+7,6,0.0,0.0,0.0
+water_level,tfidf-word+svm,True,-1,29,0.2,0.207,0.203
+water_level,tfidf-word+svm,True,-2,20,0.095,0.1,0.098
+water_level,tfidf-word+svm,True,-3,18,0.154,0.111,0.129
+water_level,tfidf-word+svm,True,-4,14,0.417,0.357,0.385
+water_level,tfidf-word+svm,True,-5,3,0.0,0.0,0.0
+water_level,tfidf-word+svm,True,-6,10,0.333,0.1,0.154

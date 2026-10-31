@@ -1,0 +1,90 @@
+\section{Spec 5 --- Information extraction}
+
+We extract six entity types (water body, location, organism, quantity, date/time, weather) and twelve water conditions
+with three systems: spaCy pipelines for 18 languages~\cite{honnibal2020spacy}, a multilingual XLM-RoBERTa NER
+model~\cite{conneau2020xlmr}, and our rules (water-term lists in nine languages and regular expressions). The NER
+models know places, dates and numbers but not organisms, water bodies or weather, which only the rules cover. The
+same NER output was used to mask personal names: 8.8\% of notes named a person, mostly survey credits.
+
+\section{Spec 6 --- Gold set}
+
+We labelled 300 records from one stratified sample, plus 20 calibration records labelled by
+all three of us. Each gold record was labelled by one student and one LLM
+(Qwen2.5-VL-7B~\cite{bai2025qwen25vl}) and a third person decided the disagreements. Table~\ref{tab:gold} summarises the
+labels.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Gold set (300 records).}
+\label{tab:gold}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{ll}
+\toprule
+Label & Distribution \\
+\midrule
+Relevance & about water 150, not 134, uncertain 16 \\
+Conditions & none stated 128; low or dry 16, high water 7, clear 6, turbid 4 \\
+Entities (144 spans) & water body 54, quantity 28, weather 18, location 16, organism 15, date 13 \\
+Image--text & consistent 94, cannot judge 11, inconsistent 5, partly 3 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\section{Spec 7 --- Agreement and extractor evaluation}
+
+The agreement is measured with Cohen's $\kappa$~\cite{cohen1960kappa} and span F1 (Table~\ref{tab:agreement}). 
+The agreement between us students was high, but the agreement with the LLM is low - 68\% of notes got marked as ``not about water'', 
+while we students only labelled 40\% this way.
+
+\begin{table}[htbp]
+\centering\small
+\caption{Agreement: relevance and condition $\kappa$, span F1 (exact / partial).}
+\label{tab:agreement}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrr}
+\toprule
+Pair & Relevance $\kappa$ & Conditions $\kappa$ & Span F1 \\
+\midrule
+Students, calibration (20) & 0.80 & 1.00 & 1.00 / 1.00 \\
+Student vs LLM, gold (300) & 0.25 & 0.29 & 0.20 / 0.29 \\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+The extractors are scored on the gold entity spans (Table~\ref{tab:extractors}). Exact scores are low because span
+boundaries differ from the guideline. With partial matching the rules are best.
+For water conditions the rules reach F1 0.31 (precision 0.50, recall 0.22). Only 51\% of the
+gold notes are actually about water. Translating non-English notes to English helps condition extraction but
+hurts entity extraction, because translation garbles names and abbreviations (Table~\ref{tab:mt}).
+
+\begin{table}[htbp]
+\centering\small
+\caption{Extractors on the gold set (150 spans, micro F1).}
+\label{tab:extractors}
+\begin{tabular}{lrrr}
+\toprule
+System & F1 exact & F1 partial & Predicted \\
+\midrule
+spaCy & 0.20 & 0.34 & 96 \\
+XLM-R NER & 0.20 & 0.28 & 65 \\
+Rules & 0.12 & \textbf{0.44} & 210 \\
+Union & \textbf{0.22} & 0.40 & 332 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+\centering\small
+\caption{Extraction F1 on English originals vs non-English notes, original and machine-translated.}
+\label{tab:mt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrr}
+\toprule
+Text & spaCy entities & Rules entities & Rules conditions \\
+\midrule
+English originals & 0.42 & 0.53 & 0.39 \\
+Non-English, original & 0.28 & 0.37 & 0.22 \\
+Non-English, translated & 0.18 & 0.32 & 0.37 \\
+\bottomrule
+\end{tabular}}
+\end{table}

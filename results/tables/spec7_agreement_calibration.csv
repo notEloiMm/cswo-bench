@@ -1,0 +1,8 @@
+,records,relevance_kappa,relevance_agree,conditions_records,conditions_kappa,conditions_exact_agree,image_text_records,image_text_kappa,span_records,span_f1_exact,span_f1_partial
+A1 vs A2,20.0,0.712,0.85,12.0,1.0,1.0,6.0,0.0,4.0,1.0,1.0
+A1 vs A3,20.0,0.801,0.9,12.0,1.0,1.0,6.0,0.0,4.0,1.0,1.0
+A2 vs A3,20.0,0.894,0.95,13.0,1.0,1.0,6.0,,5.0,1.0,1.0
+pooled,60.0,0.799,0.9,37.0,1.0,1.0,18.0,0.0,13.0,1.0,1.0
+pooled: both original,19.0,0.791,0.895,13.0,,1.0,10.0,0.0,13.0,1.0,1.0
+pooled: both translation,33.0,0.771,0.879,16.0,1.0,1.0,6.0,0.0,0.0,,
+pooled: mixed,8.0,,1.0,8.0,,1.0,2.0,,0.0,,

@@ -1,0 +1,37 @@
+# Hard cases log
+
+The guideline v0.1 "Hard cases" table holds the rulings written by the course. Every disagreement resolved in
+our calibration round becomes a new row here (guideline, "Quality checks"), and these rows are sent back to
+the supervisor so the guideline can be updated. Keep the record id so the case can be found again.
+
+**Status (2026-10-26): all rows confirmed by the group.** Rows 1–5 were resolved by majority vote of the three
+annotators (each ruling also checked against the guideline); rows 6–7 are applied to the data by the merge step
+(`src/cswo/annotate/merge.py`), so every annotation in `data/gold/annotations.jsonl` follows them.
+
+| # | Record id | Case (what was ambiguous) | Ruling | Decided on (date, round) |
+|---|---|---|---|---|
+| 1 | artportalen:1492267739 | Note is only a locality that is itself a water body: "Småbåtshamnen vid Stensökanalen" (marina at Stensö canal). A1: not about water; A2, A3: about water. | **about water**, conditions none stated. The water body is the setting of the observation itself. Differs from the guideline's "Picked blueberries by the lake", where the note reports an unrelated activity and the lake is only a landmark. Same logic as the guideline's own "Sorsia 12" (a bare count on a water record is about water). | 2026-10-26, calibration 1, confirmed (majority) |
+| 2 | crowdwater:1227466 | "Vett korgi pealt 0,02m ja soolakatse" (water 0.02 m over the culvert edge, salt test); photo shows a culvert with flowing brown water. A1: partly consistent; A2, A3: consistent. | **consistent**. The note asserts no condition and the photo shows water (guideline image-text step 2). A condition visible only in the photo (brown water) is not a contradiction: image-text compares the photo with what the note asserts, nothing else. | 2026-10-26, calibration 1, confirmed (majority) |
+| 3 | crowdwater:514492 | Gauge reading without a judgement: "Monitoring location 0164570 gage height is 1.01 ft". A1: uncertain; A2, A3: about water. | **about water**, conditions **none stated** (a level number alone is not high water or low/dry; the guideline needs it "described as high"), [1.01 ft] QUANTITY. Image-text: the photo shows the stream → consistent. | 2026-10-26, calibration 1, confirmed (majority) |
+| 4 | crowdwater:514492 | Station identifier "0164570": all three marked it LOCATION. | Keep **LOCATION** (it identifies a monitoring site, not a quantity; the guideline excludes "bare numbers in names" from QUANTITY). Recorded so the gold set stays consistent. | 2026-10-26, calibration 1, confirmed (majority) |
+| 5 | laji_fi:3448009538 | "saalistuspaikkoja ja siirtymäreittejä" (predation sites and movement routes), no water mentioned. A1, A3: not about water; A2: uncertain. | **not about water**. Do not infer water from the species or platform; the note must mention a water body, its state, or something in or on it. Use uncertain only when the text itself cannot be judged (empty, garbled, one word). | 2026-10-26, calibration 1, confirmed (majority) |
+| 6 | inaturalist:4169491 (and 18 other annotations) | Image-text filled in on notes marked "not about water" ("30 Aug 2016. Core Creek Park, Bucks Co, PA", kingfisher photo). | **No image-text, conditions or entities when the note is not about water** (guideline workflow step 2: "set relevance and stop"). The merge step now drops them automatically; the label interface hides image-text for these notes. | 2026-10-26, calibration 1, confirmed and applied in merge |
+| 7 | (all records) | About-water notes left with an empty condition list instead of ticking "none stated" (50 of 55 annotations). | **Tick "none stated"** whenever the note is about water and asserts no condition (guideline: so an empty set and a skipped record can be told apart). The merge step writes `["none stated"]` explicitly for every about-water or uncertain note with no condition, so the annotation file follows the guideline (0 empty condition lists remain). | 2026-10-26, calibration 1, confirmed and applied in merge |
+
+## Gold round (student vs LLM), first-pass adjudication 2026-10-26
+
+**Status (2026-10-26): all rows confirmed by the group.** All 237 disagreements in `disagreements_gold.csv` have a
+ruling and a one-line reason (`reason` column): student label kept 178, LLM label 53, rewritten by the group 6.
+The group reviewed the 9 fields first marked unresolvable and decided each (rows marked "group decision" in the
+sheet; row 14 below), so the gold set has no unresolved or unresolvable field. The guideline's adjudicator chooses
+one of the two labels; for 6 fields where both were wrong the group wrote the correct value instead.
+
+| # | Record id (example) | Case | Ruling | Decided on |
+|---|---|---|---|---|
+| 8 | crowdwater:138381, crowdwater:240347 (7 records) | Note only describes the weather ("Heavy rain overnight", "1°C snowing lightly", "rain forecast for 3 days"), also when a reservoir is named as the place. | **not about water**: weather is not a water body, its state, or something in it (guideline relevance definition; "heavy rain last night" does not imply a water condition). | 2026-10-26, gold, confirmed |
+| 9 | inaturalist:141585, inaturalist:19137951 (+ "garden by pond") | A water body appears only as a distance landmark for an observation on land. | **not about water** (guideline: "Picked blueberries by the lake"). Contrast row 1: when the water body is where the observation happens, it is about water. | 2026-10-26, gold, confirmed |
+| 10 | inaturalist:173971, laji_fi:4026584364 (5 records) | Note is only a species name or list. | **about water** (guideline hard case "a note that is only a species list"). Where both annotators chose otherwise, the closer label was kept or the field marked unresolvable. | 2026-10-26, gold, confirmed |
+| 11 | crowdwater:1024221, crowdwater:1277275 | "East dam", "West dam" as an entity. | A dam is a **structure, not a WATER_BODY** (it is a LOCATION when named); "East dam lake" is a WATER_BODY. | 2026-10-26, gold, confirmed |
+| 12 | (all entity disagreements) | Both span sets are partly wrong and only one may be chosen. | Choose the label with **more spans that follow the guideline exactly**; on a tie, the one with **fewer wrong spans**; on a full tie, the student's. If neither has a single correct span where entities exist, the group writes the correct spans (row 14). | 2026-10-26, gold, confirmed |
+| 13 | artportalen:1430318947, artportalen:1430320546 (8 records) | Condition inferred from a depth or level number (student: low or dry; LLM: clear/turbid). | **none stated** (guideline: a Secchi/depth number alone does not get clear; "shallow" alone is not low or dry). Exception decided by the group: row 14. | 2026-10-26, gold, confirmed |
+| 14 | artportalen:1430320546, artportalen:1430523247, artportalen:1436432889, crowdwater:1024221, crowdwater:206982, inaturalist:470597 (+2 span deletions) | Fields where both labels were wrong (first marked unresolvable). | Group decisions: vegetation-survey records with a sandy bottom (50% sand) → **turbid**, stony bottom with little sand → **clear** (an inference from the substrate description, beyond the note's wording — mention as a limitation); herbarium code for an aquatic plant → **about water**; "East dam at -20, … 2.5\"" → [East dam] LOCATION, [-20] and [2.5"] QUANTITY; two rivers in one locality → two WATER_BODY spans; "exposed lake bed" → **low or dry**, [Jordan lake bed] WATER_BODY; a bare "bridge" and "the opposite bank" → no spans. | 2026-10-26, gold, confirmed (group) |

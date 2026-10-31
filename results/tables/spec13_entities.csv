@@ -1,0 +1,7 @@
+system,P exact,R exact,F1 exact,P partial,R partial,F1 partial,gold spans,predicted
+spaCy (spec 5),0.25,0.16,0.195,0.438,0.28,0.341,150,96
+XLM-R NER (spec 5),0.338,0.147,0.205,0.462,0.2,0.279,150,65
+rules (spec 5),0.1,0.14,0.117,0.381,0.533,0.444,150,210
+union of spec 5 systems,0.157,0.347,0.216,0.289,0.64,0.398,150,332
+GLiNER multi v2.1 (zero-shot),0.307,0.493,0.379,0.423,0.68,0.522,150,241
+GLiNER + rules,0.226,0.54,0.319,0.335,0.8,0.472,150,358

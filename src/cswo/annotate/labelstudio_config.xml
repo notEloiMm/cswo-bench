@@ -1,0 +1,94 @@
+<!--
+  CSWO-Bench gold annotation (spec 6). Label Studio labelling config following the course
+  "Text Annotation Guideline v0.1". Label names match the guideline and its export format exactly.
+  Order of work per record: read_from -> relevance -> conditions -> entities -> image-text -> uncertain.
+  Conditions, entities and image-text are hidden when the note is "not about water" (guideline: stop there).
+  Entity spans only when read_from = original (spans point into the original text).
+-->
+<View>
+  <Style>
+    .cswo-meta { color: #52514e; font-size: 13px; margin-bottom: 6px; }
+    .cswo-cols { display: flex; gap: 16px; flex-wrap: wrap; }
+    .cswo-col { flex: 1 1 320px; }
+    .cswo-box { border: 1px solid #e4e3df; border-radius: 6px; padding: 8px 10px; }
+  </Style>
+
+  <View className="cswo-meta">
+    <Header value="$set_label" size="5"/>
+    <Text name="meta" value="$meta"/>
+  </View>
+
+  <View className="cswo-cols">
+    <View className="cswo-col">
+      <Header value="Original note" size="6"/>
+      <View className="cswo-box">
+        <Text name="text_original" value="$text_original" granularity="word"/>
+      </View>
+    </View>
+    <View className="cswo-col">
+      <Header value="Machine translation (English)" size="6"/>
+      <View className="cswo-box">
+        <Text name="text_en" value="$text_en"/>
+      </View>
+      <Header value="Photo" size="6"/>
+      <Image name="photo" value="$image" maxWidth="100%" zoom="true"/>
+    </View>
+  </View>
+
+  <Header value="1. read_from: which text did you read?" size="5"/>
+  <Choices name="read_from" toName="text_original" choice="single-radio" required="true" showInline="true">
+    <Choice value="original"/>
+    <Choice value="translation"/>
+  </Choices>
+
+  <Header value="2. Relevance" size="5"/>
+  <Choices name="relevance" toName="text_original" choice="single-radio" required="true" showInline="true">
+    <Choice value="about water"/>
+    <Choice value="not about water"/>
+    <Choice value="uncertain"/>
+  </Choices>
+
+  <View visibleWhen="choice-selected" whenTagName="relevance" whenChoiceValue="about water,uncertain">
+    <Header value="3. Water condition: tick every condition the note asserts, or 'none stated' (never leave it empty)" size="5"/>
+    <Choices name="conditions" toName="text_original" choice="multiple" showInline="true">
+      <Choice value="clear"/>
+      <Choice value="turbid"/>
+      <Choice value="coloured"/>
+      <Choice value="algae"/>
+      <Choice value="foam"/>
+      <Choice value="ice"/>
+      <Choice value="oil"/>
+      <Choice value="litter"/>
+      <Choice value="odour"/>
+      <Choice value="high water"/>
+      <Choice value="low or dry"/>
+      <Choice value="flooding"/>
+      <Choice value="none stated"/>
+    </Choices>
+
+    <Header value="4. Entity spans: only if read_from = original. Select words in the original note." size="5"/>
+    <Labels name="entities" toName="text_original" showInline="true">
+      <Label value="WATER_BODY" background="#2a78d6"/>
+      <Label value="LOCATION" background="#eb6834"/>
+      <Label value="ORGANISM" background="#1baf7a"/>
+      <Label value="QUANTITY" background="#eda100"/>
+      <Label value="DATE_TIME" background="#e87ba4"/>
+      <Label value="WEATHER" background="#6250d6"/>
+    </Labels>
+
+    <Header value="5. Image-text consistency: only if a photo is attached (leave empty when 'No photo')" size="5"/>
+    <Choices name="image_text" toName="photo" choice="single-radio" showInline="true">
+      <Choice value="consistent"/>
+      <Choice value="partly consistent"/>
+      <Choice value="inconsistent"/>
+      <Choice value="cannot judge"/>
+    </Choices>
+  </View>
+
+  <Header value="6. Confidence" size="5"/>
+  <Choices name="uncertain" toName="text_original" choice="multiple" showInline="true">
+    <Choice value="uncertain" hint="Unsure about any label: tick, and say why in one line below"/>
+  </Choices>
+  <TextArea name="comment" toName="text_original" rows="2" maxSubmissions="1"
+            placeholder="Why uncertain / suspected mistranslated word / hard case / broken photo"/>
+</View>

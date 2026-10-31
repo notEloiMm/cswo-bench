@@ -1,0 +1,4 @@
+system,records,conditions micro P,conditions micro R,conditions micro F1,conditions macro F1 (labels in gold),relevance acc,relevance macro F1,image-text records,image-text acc,image-text kappa
+rules (spec 5),300,0.5,0.231,0.316,0.232,,,,,
+qwen2.5-7b (zero-shot llm),300,0.184,0.641,0.286,0.258,0.693,0.474,,,
+qwen2.5-vl-7b (zero-shot vlm),300,0.141,0.641,0.231,0.245,0.703,0.515,113.0,0.434,0.057

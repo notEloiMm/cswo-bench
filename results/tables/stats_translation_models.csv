@@ -1,0 +1,27 @@
+,notes,original English,translated,rejected by QC,untranslated,model
+sv,25860,0,25857,3,0,opus-mt-sv-en
+en,20079,20079,0,0,0,-
+fi,12657,0,12657,0,0,opus-mt-tc-big-fi-en
+und,11323,0,0,0,11323,-
+de,3386,0,3384,2,0,opus-mt-de-en
+et,1687,0,1687,0,0,opus-mt-tc-big-et-en
+da,1479,0,1477,2,0,opus-mt-da-en
+nl,1093,0,1092,1,0,opus-mt-nl-en
+fr,774,0,770,4,0,opus-mt-fr-en
+-,743,0,0,0,743,-
+es,502,0,502,0,0,opus-mt-es-en
+pt,416,0,416,0,0,nllb-200-distilled-600M
+it,182,0,182,0,0,opus-mt-it-en
+lt,181,0,166,15,0,nllb-200-distilled-600M
+no,137,0,137,0,0,nllb-200-distilled-600M
+ru,126,0,126,0,0,opus-mt-ru-en
+hu,104,0,102,2,0,opus-mt-hu-en
+pl,98,0,98,0,0,opus-mt-pl-en
+ro,22,0,19,3,0,nllb-200-distilled-600M
+is,11,0,11,0,0,nllb-200-distilled-600M
+ca,9,0,9,0,0,nllb-200-distilled-600M
+hr,7,0,4,3,0,nllb-200-distilled-600M
+lv,5,0,5,0,0,opus-mt-lv-en
+sk,3,0,3,0,0,nllb-200-distilled-600M
+sl,3,0,2,1,0,nllb-200-distilled-600M
+cs,1,0,0,1,0,nllb-200-distilled-600M

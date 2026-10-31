@@ -1,0 +1,39 @@
+% CSWO-Bench final report (University of Oulu NLP course 2026, project 16).
+% Compile: pdflatex report && bibtex report && pdflatex report && pdflatex report   (Overleaf: pdfLaTeX)
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath, amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\PassOptionsToPackage{hyphens}{url}   % long model ids may break at hyphens
+\usepackage[colorlinks=true, linkcolor=black, citecolor=black, urlcolor=blue!50!black]{hyperref}
+\usepackage{enumitem}
+\setlist{nosep}
+\graphicspath{{figures/}}
+
+% red = still to fill in before submission
+\newcommand{\fillin}[1]{\textcolor{red}{[#1]}}
+
+\title{CSWO-Bench: A Multilingual Multimodal Benchmark of Citizen Science Water Observations}
+\author{Eloi Mas Marti (2605397) \and Sam Brumwell (2605285) \and Finn Ullrich (2605284)}
+\date{University of Oulu, Natural Language Processing 2026 \\ Course Project 16, proposed by Moinul Islam \\[4pt]
+Code and data: \url{https://github.com/notEloiMm/cswo-bench} \\[4pt] \today}
+
+\begin{document}
+\maketitle
+
+\input{sections/intro}
+\input{sections/specs2_4}
+\input{sections/specs5_7}
+\input{sections/specs8_9}
+\input{sections/specs11_14}
+\input{sections/code_ai}
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

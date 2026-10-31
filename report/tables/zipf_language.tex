@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Zipf fits by language (spec 4): OLS of $\log_{10}$ frequency on $\log_{10}$ rank with 90\% confidence interval of the slope.}
+\label{tab:zipf-language}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrrrr}
+\toprule
+language & types & slope & 90\% lo & 90\% hi & $R^2$ & adj. $R^2$ & slope top-1000 \\
+\midrule
+en & 14{,}883 & -1.351 & -1.354 & -1.348 & 0.975 & 0.975 & -0.963 \\
+sv & 18{,}967 & -1.157 & -1.159 & -1.153 & 0.953 & 0.953 & -1.007 \\
+fi & 9{,}496 & -0.945 & -0.949 & -0.942 & 0.946 & 0.946 & -0.927 \\
+de & 4{,}971 & -1.057 & -1.063 & -1.052 & 0.953 & 0.953 & -1.041 \\
+Brown & 47{,}039 & -1.323 & -1.325 & -1.321 & 0.974 & 0.974 & -0.977 \\
+Reuters & 29{,}188 & -1.557 & -1.560 & -1.555 & 0.978 & 0.978 & -0.961 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

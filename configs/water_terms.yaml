@@ -1,0 +1,70 @@
+# Multilingual keyword lists. Matching is case-insensitive on word prefixes (stems), so "järv" matches
+# "järve", "järvel". Finnish/Estonian compounds are matched anywhere in the token (e.g. "Oulujoki").
+# Languages: en, de, fr, sv, fi, et, lv (plus nl for Observation.org).
+
+water_body:
+  lake:   {en: [lake, lakeside, lakeshore, loch, reservoir], de: [see, teich, weiher, stausee], fr: [lac, étang, etang, réservoir],
+           sv: [sjö, sjön, tjärn, damm], fi: [järvi, järve, lampi, lammi, allas], et: [järv, tiik, veehoidla],
+           lv: [ezer, dīķ, dik], nl: [meer, vijver, plas]}
+  pond:   {en: [pond, pool], de: [tümpel, tumpel], fr: [mare], sv: [göl, pöl], fi: [lammikko], et: [lomp], lv: [peļķ]}
+  river:  {en: [river, riverside, riverbank], de: [fluss, strom], fr: [rivière, riviere, fleuve], sv: [älv, älven], fi: [joki, joen, joe],
+           et: [jõgi, jõe], lv: [upe, upes], nl: [rivier]}
+  stream: {en: [stream, brook, creek, burn, beck, ditch, canal], de: [bach, graben, kanal],
+           fr: [ruisseau, canal], sv: ["å", ån, bäck, dike, kanal], fi: [puro, oja, kanava], et: [oja, kraav],
+           lv: [strauts, grāv], nl: [beek, sloot, kanaal]}
+  coast:  {en: [coast, shore, seashore, seaside, shoreline, beach, bay, estuary, harbour, harbor, marina, pier], de: [küste, strand, ufer, bucht, hafen],
+           fr: [côte, plage, rivage, baie, estuaire, port], sv: [kust, strand, vik, hamn, brygga],
+           fi: [ranta, rannan, ranna, lahti, lahde, satama, laituri], et: [rand, ranna, laht, sadam], lv: [krast, pludmal, līc, osta],
+           nl: [kust, strand, haven]}
+  sea:    {en: [sea, ocean, sound, fjord], de: [meer, ostsee, nordsee], fr: [mer, océan], sv: [hav, havet, östersjön, fjärd],
+           fi: [meri, meren, itämeri], et: [meri, mere, läänemeri], lv: [jūr], nl: [zee]}
+  wetland: {en: [marsh, wetland, bog, fen, swamp], de: [moor, sumpf, ried], fr: [marais, tourbière], sv: [myr, kärr, våtmark],
+           fi: [suo, nevä, korpi], et: [raba, soo], lv: [purv]}
+
+# Water condition terms for rule-based extraction (spec 5) and gold label hints. Keys match the gold label set.
+water_condition:
+  clear:      {en: [clear, transparent, clean], de: [klar, sauber], fr: [clair, limpide], sv: [klar, klart],
+               fi: [kirkas, kirkkaa, puhdas], et: [selge, puhas], lv: [dzidr, tīr]}
+  turbid:     {en: [turbid, murky, muddy, cloudy, silty], de: [trüb, schlammig], fr: [trouble, boueu],
+               sv: [grumlig, grumligt, lerig], fi: [samea, sameaa, mutai], et: [sogane, mudane], lv: [duļķ]}
+  coloured:   {en: [brown water, green water, colour, color, stained, tea-coloured], de: [braun, verfärbt], fr: [coloré, brunâtre],
+               sv: [brunt vatten, färgat], fi: [ruskea, humus], et: [pruun], lv: [brūn]}
+  algae:      {en: [algae, algal, bloom, cyanobacteria, blue-green, scum], de: [algen, blaualgen, algenblüte], fr: [algue, cyanobact, efflorescence],
+               sv: [alg, algblomning, blågrön], fi: [levä, sinilevä, leväkukinta], et: [vetikas, vetika, sinivetikas, õitse], lv: [aļģ, zilaļģ]}
+  foam:       {en: [foam, froth, suds], de: [schaum], fr: [mousse, écume], sv: [skum], fi: [vaahto], et: [vaht], lv: [put]}
+  ice:        {en: [ice, frozen, icy], de: [eis, gefroren, zugefroren], fr: [glace, gelé], sv: [is, isen, frusen, istäck],
+               fi: [jää, jäätynyt, jäässä], et: [jää, jäätunud], lv: [led, aizsal]}
+  oil:        {en: [oil, sheen, petrol, diesel, slick], de: [öl, ölfilm], fr: [huile, pétrole, hydrocarbure], sv: [olja, oljefläck],
+               fi: [öljy], et: [õli, nafta], lv: [eļļ, naft]}
+  litter:     {en: [litter, rubbish, trash, plastic, garbage, debris], de: [müll, abfall, plastik], fr: [déchet, plastique, ordure],
+               sv: [skräp, plast, sopor], fi: [roska, muovi, jäte], et: [prügi, plast], lv: [atkritum, plastmas]}
+  odour:      {en: [smell, odour, odor, stink, stench, sewage], de: [geruch, stinkt, riecht], fr: [odeur, puant],
+               sv: [lukt, luktar, stinker], fi: [haju, haisee], et: [lõhn, hais], lv: [smak, smird]}
+  high_water: {en: [high water, high level, overflowing, swollen, spate], de: [hochwasser], fr: [crue, hautes eaux],
+               sv: [högvatten, högt vattenstånd], fi: [tulva, korkea vesi], et: [kõrgvesi, suurvesi], lv: [palu, augsts ūdens]}
+  low_or_dry: {en: [dry, dried, low water, low level, drought], de: [trocken, niedrigwasser], fr: [sec, à sec, étiage, sécheresse],
+               sv: [torr, uttorkad, lågvatten, torka], fi: [kuiva, kuivunut, matala vesi], et: [kuiv, madalvesi, põud], lv: [sauss, izžuv, sausum]}
+  flooding:   {en: [flood, flooded, inundat], de: [überschwemm, überflutet, flut], fr: [inondation, inondé],
+               sv: [översvämning, översvämmad], fi: [tulvi, tulvinut], et: [üleujutus], lv: [plūd, applūd]}
+
+# Weather terms for the WEATHER entity type (spec 6 gold labels).
+weather:
+  rain:  {en: [rain, rainy, raining, drizzle, shower, showers], de: [regen, regnet, nieselregen, schauer], fr: [pluie, pleut, averse],
+          sv: [regn, regnar, regnade, duggregn, skur], fi: [sade, sateinen, sataa, satoi, tihku], et: [vihm, vihmane, sajab, sadas],
+          lv: [lietus, līst], da: [regn, regner, byge], nl: [regen, regent, bui]}
+  snow:  {en: [snow, snowing, snowfall, sleet], de: [schnee, schneit], fr: [neige, neigeux], sv: [snö, snöar, snöfall],
+          fi: [lumi, lunta, lumisade], et: [lumi, lund, lumesadu], lv: [sniegs], da: [sne], nl: [sneeuw]}
+  sun:   {en: [sun, sunny, sunshine, clear sky], de: [sonne, sonnig], fr: [soleil, ensoleillé], sv: [sol, soligt, solsken],
+          fi: [aurinko, aurinkoinen, aurinkoista], et: [päike, päikeseline], lv: [saule, saulains], da: [sol, solskin], nl: [zon, zonnig]}
+  wind:  {en: [wind, windy, breeze, gale, gusts], de: [wind, windig, böen], fr: [vent, venteux], sv: [vind, blåsigt, blåst, hård vind],
+          fi: [tuuli, tuulinen, tuulista, tuulee], et: [tuul, tuuline], lv: [vējš, vējains], da: [blæst, vind], nl: [wind, winderig]}
+  cloud: {en: [cloud, cloudy, overcast, grey sky], de: [wolke, bewölkt, bedeckt], fr: [nuage, nuageux, couvert], sv: [moln, molnigt, mulet],
+          fi: [pilvi, pilvinen, pilvistä], et: [pilv, pilvine], lv: [mākoņ, apmācies], da: [skyet, overskyet], nl: [bewolkt]}
+  fog:   {en: [fog, foggy, mist, misty, haze], de: [nebel, neblig, dunst], fr: [brouillard, brume], sv: [dimma, dimmigt],
+          fi: [sumu, sumuinen], et: [udu, udune], lv: [migla], da: [tåge], nl: [mist]}
+  storm: {en: [storm, thunder, thunderstorm, lightning], de: [sturm, gewitter], fr: [tempête, orage], sv: [storm, åska],
+          fi: [myrsky, ukkonen], et: [torm, äike], lv: [vētra, pērkon], da: [storm, torden], nl: [storm, onweer]}
+  frost: {en: [frost, frosty, freezing], de: [frost, frostig], fr: [gel, gelée], sv: [frost, minusgrader],
+          fi: [pakkanen, pakkasta, halla], et: [külm, pakane], lv: [sals], da: [frost], nl: [vorst]}
+  heat:  {en: [heat, hot, heatwave, warm], de: [hitze, heiß, warm], fr: [chaleur, chaud, canicule], sv: [värme, varmt, hetta],
+          fi: [helle, kuuma, lämmin], et: [kuumus, palav, soe], lv: [karstums, karsts], da: [varme, varmt], nl: [hitte, warm]}

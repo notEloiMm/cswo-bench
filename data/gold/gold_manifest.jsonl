@@ -1,0 +1,340 @@
+{"id": "inaturalist:58580051", "set": "calibration", "stratum": "inaturalist|en|photo", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "inaturalist:4169491", "set": "calibration", "stratum": "inaturalist|en|photo", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "inaturalist:45841242", "set": "calibration", "stratum": "inaturalist|en|photo", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "inaturalist:25469375", "set": "calibration", "stratum": "inaturalist|en|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "crowdwater:1265284", "set": "calibration", "stratum": "crowdwater|de|photo", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "crowdwater:170939", "set": "calibration", "stratum": "crowdwater|other|photo", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "crowdwater:514492", "set": "calibration", "stratum": "crowdwater|en|photo", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "crowdwater:1227466", "set": "calibration", "stratum": "crowdwater|et|photo", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "artportalen:1476489044", "set": "calibration", "stratum": "artportalen|sv|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "artportalen:1462703154", "set": "calibration", "stratum": "artportalen|sv|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "artportalen:1492267739", "set": "calibration", "stratum": "artportalen|sv|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "artportalen:4929467092", "set": "calibration", "stratum": "artportalen|sv|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "laji_fi:3448009538", "set": "calibration", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "laji_fi:3449087589", "set": "calibration", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "laji_fi:3448162692", "set": "calibration", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "laji_fi:6326655307", "set": "calibration", "stratum": "laji_fi|und|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "gbif_other:5893476540", "set": "calibration", "stratum": "gbif_other|da|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "gbif_other:5894014633", "set": "calibration", "stratum": "gbif_other|da|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "gbif_other:6116442838", "set": "calibration", "stratum": "gbif_other|da|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "gbif_other:5893269287", "set": "calibration", "stratum": "gbif_other|da|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "inaturalist:1850338", "set": "calibration_reserve", "stratum": "inaturalist|en|photo", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "inaturalist:6389192", "set": "calibration_reserve", "stratum": "inaturalist|en|photo", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "inaturalist:10190777", "set": "calibration_reserve", "stratum": "inaturalist|en|photo", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "inaturalist:124533175", "set": "calibration_reserve", "stratum": "inaturalist|en|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "crowdwater:1059193", "set": "calibration_reserve", "stratum": "crowdwater|de|photo", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "crowdwater:667039", "set": "calibration_reserve", "stratum": "crowdwater|other|photo", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "crowdwater:1286630", "set": "calibration_reserve", "stratum": "crowdwater|en|photo", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "crowdwater:1019753", "set": "calibration_reserve", "stratum": "crowdwater|et|photo", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "artportalen:1434344470", "set": "calibration_reserve", "stratum": "artportalen|sv|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "artportalen:4929547953", "set": "calibration_reserve", "stratum": "artportalen|sv|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "artportalen:3429376374", "set": "calibration_reserve", "stratum": "artportalen|sv|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "artportalen:3917778066", "set": "calibration_reserve", "stratum": "artportalen|sv|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "laji_fi:5829572523", "set": "calibration_reserve", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "laji_fi:5239498783", "set": "calibration_reserve", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "laji_fi:5131024367", "set": "calibration_reserve", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "laji_fi:4939478079", "set": "calibration_reserve", "stratum": "laji_fi|und|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "gbif_other:5893626443", "set": "calibration_reserve", "stratum": "gbif_other|da|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "gbif_other:5893821497", "set": "calibration_reserve", "stratum": "gbif_other|da|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "gbif_other:5893896410", "set": "calibration_reserve", "stratum": "gbif_other|da|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "gbif_other:5893510827", "set": "calibration_reserve", "stratum": "gbif_other|da|nophoto", "annotators": ["A1", "A2", "A3"], "guideline": "v0.1"}
+{"id": "inaturalist:2438207", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:2704963", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:7775334", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:83246917", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:470597", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:1811088", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:36197365", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:4204623", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:2334655", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:2778570", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:193722107", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:1128654", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:65158576", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:19674360", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:854721", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:38524127", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:2432542", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:330041", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:52048", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:39374716", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:57372595", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:64233796", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:7627949", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:8505725", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:3649615", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:5419882", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:406800351", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:37938444", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:48819289", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:173971", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:34441186", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:264021566", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:41611523", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:141585", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:471414", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:3410100", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:4625621", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:80015", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:253329148", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:2739588", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:3744174", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:22850488", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:129555930", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:304914", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:1491038", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:4160789", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:50423360", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:2575710", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:43751745", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:5210215", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:45048720", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:3807933", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:1733498", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:2860423", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:8958", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:76288620", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:62031", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:1031793", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:19137951", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:5126471", "set": "gold", "stratum": "inaturalist|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:9202753", "set": "gold", "stratum": "inaturalist|nl|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:9204323", "set": "gold", "stratum": "inaturalist|nl|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:9925075", "set": "gold", "stratum": "inaturalist|und|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:252536478", "set": "gold", "stratum": "inaturalist|und|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:309280823", "set": "gold", "stratum": "inaturalist|und|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:15823218", "set": "gold", "stratum": "inaturalist|und|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:353701", "set": "gold", "stratum": "inaturalist|en|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:72672", "set": "gold", "stratum": "inaturalist|en|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:498845", "set": "gold", "stratum": "inaturalist|en|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:20458032", "set": "gold", "stratum": "inaturalist|en|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:72148", "set": "gold", "stratum": "inaturalist|en|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:21533089", "set": "gold", "stratum": "inaturalist|en|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:25469339", "set": "gold", "stratum": "inaturalist|en|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:2754772", "set": "gold", "stratum": "inaturalist|en|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:2673952", "set": "gold", "stratum": "inaturalist|en|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:315477499", "set": "gold", "stratum": "inaturalist|other|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:182834805", "set": "gold", "stratum": "inaturalist|other|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:20510232", "set": "gold", "stratum": "inaturalist|other|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:15257767", "set": "gold", "stratum": "inaturalist|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "inaturalist:7258748", "set": "gold", "stratum": "inaturalist|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1068211", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1074441", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:645418", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:261342", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:912469", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:916683", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1061122", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:242757", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:452469", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:141271", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:342815", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:88439", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:867433", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:62901", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:938235", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:245395", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:252724", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:651031", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:296978", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1328533", "set": "gold", "stratum": "crowdwater|de|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:203648", "set": "gold", "stratum": "crowdwater|other|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:165853", "set": "gold", "stratum": "crowdwater|other|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1126736", "set": "gold", "stratum": "crowdwater|other|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:614169", "set": "gold", "stratum": "crowdwater|other|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:240347", "set": "gold", "stratum": "crowdwater|other|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:942739", "set": "gold", "stratum": "crowdwater|other|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:206982", "set": "gold", "stratum": "crowdwater|other|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:101580", "set": "gold", "stratum": "crowdwater|other|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:178774", "set": "gold", "stratum": "crowdwater|other|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:170938", "set": "gold", "stratum": "crowdwater|other|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1152270", "set": "gold", "stratum": "crowdwater|other|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:256817", "set": "gold", "stratum": "crowdwater|other|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:853910", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:742190", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1021893", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:589512", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:637101", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:474899", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:268851", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1244265", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:458529", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1260366", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:830924", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1024221", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:154197", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1239918", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:866011", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:319615", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:309066", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1183652", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:856594", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1295532", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:138381", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1277275", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1181016", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:317743", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1289974", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1237463", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:716734", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:313836", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:110277", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:32033", "set": "gold", "stratum": "crowdwater|en|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:359619", "set": "gold", "stratum": "crowdwater|und|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:412047", "set": "gold", "stratum": "crowdwater|und|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:492126", "set": "gold", "stratum": "crowdwater|und|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:707933", "set": "gold", "stratum": "crowdwater|und|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:283987", "set": "gold", "stratum": "crowdwater|und|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:994335", "set": "gold", "stratum": "crowdwater|und|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:310542", "set": "gold", "stratum": "crowdwater|de|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:846635", "set": "gold", "stratum": "crowdwater|et|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1108479", "set": "gold", "stratum": "crowdwater|et|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:926492", "set": "gold", "stratum": "crowdwater|et|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1299608", "set": "gold", "stratum": "crowdwater|et|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1149930", "set": "gold", "stratum": "crowdwater|et|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:778576", "set": "gold", "stratum": "crowdwater|et|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1365223", "set": "gold", "stratum": "crowdwater|et|photo", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1062167", "set": "gold", "stratum": "crowdwater|et|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:942723", "set": "gold", "stratum": "crowdwater|et|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:1115342", "set": "gold", "stratum": "crowdwater|et|photo", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "crowdwater:643318", "set": "gold", "stratum": "crowdwater|et|photo", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:6427321379", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1123766932", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1428267556", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:3918058518", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1468083590", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:6501677350", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1432289942", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1458814914", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1431406337", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1458735385", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:854331296", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:4923248321", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1483158143", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1801780223", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1455791405", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1431946885", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1471426045", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:3919588802", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1801506575", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1483593450", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1458773029", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1489533976", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1430523247", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:3993613279", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:3918620134", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1462662152", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1464626961", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:3769073815", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1461869817", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1471116913", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:5994780255", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:4006170424", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:3918102381", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1492564855", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:3768497948", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:3993494304", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1478756699", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:4415051242", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1430318947", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1436432889", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:2808952690", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1461651135", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1427951435", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1670465989", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1430320546", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1489810386", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1884124747", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:2274218121", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1463669602", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:3431455987", "set": "gold", "stratum": "artportalen|sv|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1431257151", "set": "gold", "stratum": "artportalen|und|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1461341470", "set": "gold", "stratum": "artportalen|und|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:1433196524", "set": "gold", "stratum": "artportalen|und|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:2808920352", "set": "gold", "stratum": "artportalen|und|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "artportalen:3918414623", "set": "gold", "stratum": "artportalen|und|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:5936512279", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:6554928569", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:6176885860", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3448568032", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3758065400", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3448627749", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:5131005809", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3447806242", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3448989367", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3818919937", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:4026584364", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3447811971", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:5909745918", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:4101699658", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3448511021", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3447927922", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3448312935", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:4601329461", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3892972386", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:6534718518", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:6115801335", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:6402437315", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:6596063390", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:4978996524", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:6417506509", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:5932887614", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:4601324467", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3448673268", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3448621332", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3448260747", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:4165094413", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3448521417", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3448029168", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3989497402", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3447868816", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:4870078530", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3448274057", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3448035396", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3818883125", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:6176902837", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3447844981", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:6340666312", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3447845234", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3448541448", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:4464842647", "set": "gold", "stratum": "laji_fi|fi|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:4927599251", "set": "gold", "stratum": "laji_fi|und|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:5131026413", "set": "gold", "stratum": "laji_fi|und|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:6194037075", "set": "gold", "stratum": "laji_fi|und|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:5932887612", "set": "gold", "stratum": "laji_fi|und|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3448298151", "set": "gold", "stratum": "laji_fi|und|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:6247108335", "set": "gold", "stratum": "laji_fi|und|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:4979042320", "set": "gold", "stratum": "laji_fi|und|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:4077771478", "set": "gold", "stratum": "laji_fi|sv|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3449064075", "set": "gold", "stratum": "laji_fi|other|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "laji_fi:3448415485", "set": "gold", "stratum": "laji_fi|nl|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893695911", "set": "gold", "stratum": "gbif_other|und|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893618793", "set": "gold", "stratum": "gbif_other|und|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893855144", "set": "gold", "stratum": "gbif_other|und|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893345436", "set": "gold", "stratum": "gbif_other|und|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5918110365", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:6516370394", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893760783", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893308269", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893818254", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5894024288", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893994563", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893373883", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:6516424465", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893467807", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:6495448114", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:6495540876", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5894014471", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893310255", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893415280", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893254705", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893518378", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893854845", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5894021023", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5894007637", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893356896", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5894016540", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893439230", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893532614", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A1", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893989742", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A3", "LLM"], "guideline": "v0.1"}
+{"id": "gbif_other:5893781602", "set": "gold", "stratum": "gbif_other|da|nophoto", "annotators": ["A2", "LLM"], "guideline": "v0.1"}

@@ -1,0 +1,15 @@
+# ISO alpha-2 -> per-platform identifiers. "cap" = max raw iNaturalist records per country (keeps US/CA from dominating).
+"FI": {name: Finland,        inat_place: 7020,  cap: 40000}
+"SE": {name: Sweden,         inat_place: 7599,  cap: 40000}
+"EE": {name: Estonia,        inat_place: 8265,  cap: 40000}
+"LV": {name: Latvia,         inat_place: 8050,  cap: 40000}
+"LT": {name: Lithuania,      inat_place: 8266,  cap: 40000}
+"NO": {name: Norway,         inat_place: 7016,  cap: 40000}
+"DK": {name: Denmark,        inat_place: 8051,  cap: 40000}
+"DE": {name: Germany,        inat_place: 7207,  cap: 40000}
+"FR": {name: France,         inat_place: 6753,  cap: 40000}
+"GB": {name: United Kingdom, inat_place: 6857,  cap: 40000}
+"NL": {name: Netherlands,    inat_place: 7506,  cap: 40000}
+"BE": {name: Belgium,        inat_place: 7008,  cap: 40000}
+"CA": {name: Canada,         inat_place: 6712,  cap: 40000}
+"US": {name: United States,  inat_place: 1,     cap: 60000}

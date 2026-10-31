@@ -1,0 +1,78 @@
+|                                                                                        |   records |
+|:---------------------------------------------------------------------------------------|----------:|
+| ('CrowdWater water-level class', '-6')                                                 |       170 |
+| ('CrowdWater water-level class', '-5')                                                 |       155 |
+| ('CrowdWater water-level class', '-4')                                                 |       319 |
+| ('CrowdWater water-level class', '-3')                                                 |       564 |
+| ('CrowdWater water-level class', '-2')                                                 |      1551 |
+| ('CrowdWater water-level class', '-1')                                                 |      3495 |
+| ('CrowdWater water-level class', '+1')                                                 |      4210 |
+| ('CrowdWater water-level class', '+2')                                                 |      1733 |
+| ('CrowdWater water-level class', '+3')                                                 |       777 |
+| ('CrowdWater water-level class', '+4')                                                 |       387 |
+| ('CrowdWater water-level class', '+5')                                                 |       218 |
+| ('CrowdWater water-level class', '+6')                                                 |       115 |
+| ('CrowdWater water-level class', '+7')                                                 |       145 |
+| ('EyeOnWater Forel-Ule scale', '1')                                                    |       193 |
+| ('EyeOnWater Forel-Ule scale', '2')                                                    |      1226 |
+| ('EyeOnWater Forel-Ule scale', '3')                                                    |      1506 |
+| ('EyeOnWater Forel-Ule scale', '4')                                                    |      2651 |
+| ('EyeOnWater Forel-Ule scale', '5')                                                    |      3816 |
+| ('EyeOnWater Forel-Ule scale', '6')                                                    |      3103 |
+| ('EyeOnWater Forel-Ule scale', '7')                                                    |      1821 |
+| ('EyeOnWater Forel-Ule scale', '8')                                                    |      1455 |
+| ('EyeOnWater Forel-Ule scale', '9')                                                    |      1051 |
+| ('EyeOnWater Forel-Ule scale', '10')                                                   |       945 |
+| ('EyeOnWater Forel-Ule scale', '11')                                                   |       552 |
+| ('EyeOnWater Forel-Ule scale', '12')                                                   |       476 |
+| ('EyeOnWater Forel-Ule scale', '13')                                                   |       648 |
+| ('EyeOnWater Forel-Ule scale', '14')                                                   |       958 |
+| ('EyeOnWater Forel-Ule scale', '15')                                                   |      1279 |
+| ('EyeOnWater Forel-Ule scale', '16')                                                   |      1715 |
+| ('EyeOnWater Forel-Ule scale', '17')                                                   |      1527 |
+| ('EyeOnWater Forel-Ule scale', '18')                                                   |      1233 |
+| ('EyeOnWater Forel-Ule scale', '19')                                                   |       346 |
+| ('EyeOnWater Forel-Ule scale', '20')                                                   |       145 |
+| ('EyeOnWater Forel-Ule scale', '21')                                                   |       112 |
+| ('EyeOnWater Forel-Ule bin', 'blue')                                                   |      9392 |
+| ('EyeOnWater Forel-Ule bin', 'green')                                                  |     10051 |
+| ('EyeOnWater Forel-Ule bin', 'brown')                                                  |      7315 |
+| ('EyeOnWater measurement', 'Secchi depth')                                             |      7549 |
+| ('EyeOnWater measurement', 'water temperature')                                        |      7594 |
+| ('artportalen habitat (records with the field)', 'any')                                |      3334 |
+| ('artportalen habitat (top 10)', 'vattendrag')                                         |       446 |
+| ('artportalen habitat (top 10)', 'sjö')                                                |       205 |
+| ('artportalen habitat (top 10)', 'brant bäck i barrskog')                              |       152 |
+| ('artportalen habitat (top 10)', 'fors i medelstor å')                                 |       120 |
+| ('artportalen habitat (top 10)', 'å')                                                  |        95 |
+| ('artportalen habitat (top 10)', 'bäck')                                               |        70 |
+| ('artportalen habitat (top 10)', 'sjöstrand')                                          |        38 |
+| ('artportalen habitat (top 10)', 'damm')                                               |        36 |
+| ('artportalen habitat (top 10)', 'kall, liten bäck i barrskog')                        |        35 |
+| ('artportalen habitat (top 10)', 'älv')                                                |        34 |
+| ('laji_fi habitat (records with the field)', 'any')                                    |       844 |
+| ('laji_fi habitat (top 10)', 'virtavesi | puro')                                       |        64 |
+| ('laji_fi habitat (top 10)', 'piha')                                                   |        55 |
+| ('laji_fi habitat (top 10)', 'järvi')                                                  |        46 |
+| ('laji_fi habitat (top 10)', 'virtavesi')                                              |        38 |
+| ('laji_fi habitat (top 10)', 'puro')                                                   |        35 |
+| ('laji_fi habitat (top 10)', 'merenranta')                                             |        27 |
+| ('laji_fi habitat (top 10)', 'hiekkaranta')                                            |        25 |
+| ('laji_fi habitat (top 10)', 'lampi')                                                  |        18 |
+| ('laji_fi habitat (top 10)', 'järvenranta | pensaikkoa (paju, kataja, korpipaatsama)') |        16 |
+| ('laji_fi habitat (top 10)', 'joki')                                                   |        15 |
+| ('gbif_other habitat (records with the field)', 'any')                                 |       699 |
+| ('gbif_other habitat (top 10)', 'bog')                                                 |       100 |
+| ('gbif_other habitat (top 10)', 'coastallagoon')                                       |        97 |
+| ('gbif_other habitat (top 10)', 'beach')                                               |        95 |
+| ('gbif_other habitat (top 10)', 'marsh')                                               |        76 |
+| ('gbif_other habitat (top 10)', 'harbour')                                             |        66 |
+| ('gbif_other habitat (top 10)', 'coast')                                               |        61 |
+| ('gbif_other habitat (top 10)', 'lakewaterhole')                                       |        52 |
+| ('gbif_other habitat (top 10)', 'protectedsea')                                        |        19 |
+| ('gbif_other habitat (top 10)', 'brook')                                               |        17 |
+| ('gbif_other habitat (top 10)', 'lakeclear')                                           |        16 |
+| ('inaturalist species', 'distinct species')                                            |      3791 |
+| ('artportalen species', 'distinct species')                                            |       834 |
+| ('laji_fi species', 'distinct species')                                                |       587 |
+| ('gbif_other species', 'distinct species')                                             |       316 |

@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Heaps fits by platform (spec 4): $V = K N^\beta$ on vocabulary sizes at every 5\% of the tokens.}
+\label{tab:heaps-platform}
+\begin{tabular}{lrrrrrrr}
+\toprule
+platform & tokens & types & $K$ & $\textbackslash{}beta$ & 90\% lo & 90\% hi & $R^2$ \\
+\midrule
+inaturalist & 246{,}659 & 16{,}209 & 17.92 & 0.549 & 0.543 & 0.555 & 0.999 \\
+artportalen & 224{,}669 & 19{,}372 & 8.71 & 0.626 & 0.623 & 0.629 & 1.000 \\
+crowdwater & 103{,}315 & 13{,}376 & 10.37 & 0.622 & 0.616 & 0.628 & 1.000 \\
+laji\_fi & 52{,}767 & 9{,}511 & 7.78 & 0.654 & 0.651 & 0.658 & 1.000 \\
+Brown & 1{,}006{,}060 & 47{,}039 & 44.82 & 0.505 & 0.494 & 0.516 & 0.997 \\
+Reuters & 1{,}330{,}267 & 29{,}188 & 55.22 & 0.446 & 0.439 & 0.454 & 0.998 \\
+\bottomrule
+\end{tabular}
+\end{table}

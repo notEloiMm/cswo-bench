@@ -1,0 +1,54 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Entity extraction per system and type on the gold set (specs 7 and 13).}
+\label{tab:entities-type}
+\begin{tabular}{lrrrrrr}
+\toprule
+system / type & F1 exact & F1 partial & P & R & pred. & gold \\
+\midrule
+spaCy (spec 5) / WATER\_BODY & 0.35 & 0.38 & 0.93 & 0.24 & 14 & 55 \\
+spaCy (spec 5) / LOCATION & 0.13 & 0.23 & 0.16 & 0.37 & 43 & 19 \\
+spaCy (spec 5) / ORGANISM & 0.00 & 0.00 & -- & 0.00 & 0 & 15 \\
+spaCy (spec 5) / QUANTITY & 0.14 & 0.58 & 0.64 & 0.53 & 25 & 30 \\
+spaCy (spec 5) / DATE\_TIME & 0.30 & 0.44 & 0.43 & 0.46 & 14 & 13 \\
+spaCy (spec 5) / WEATHER & 0.00 & 0.00 & -- & 0.00 & 0 & 18 \\
+spaCy (spec 5) / all (micro) & 0.20 & 0.34 & 0.44 & 0.28 & 96 & 150 \\
+XLM-R NER (spec 5) / WATER\_BODY & 0.41 & 0.56 & 0.92 & 0.40 & 24 & 55 \\
+XLM-R NER (spec 5) / LOCATION & 0.20 & 0.27 & 0.20 & 0.42 & 41 & 19 \\
+XLM-R NER (spec 5) / ORGANISM & 0.00 & 0.00 & -- & 0.00 & 0 & 15 \\
+XLM-R NER (spec 5) / QUANTITY & 0.00 & 0.00 & -- & 0.00 & 0 & 30 \\
+XLM-R NER (spec 5) / DATE\_TIME & 0.00 & 0.00 & -- & 0.00 & 0 & 13 \\
+XLM-R NER (spec 5) / WEATHER & 0.00 & 0.00 & -- & 0.00 & 0 & 18 \\
+XLM-R NER (spec 5) / all (micro) & 0.20 & 0.28 & 0.46 & 0.20 & 65 & 150 \\
+rules (spec 5) / WATER\_BODY & 0.07 & 0.46 & 0.37 & 0.60 & 90 & 55 \\
+rules (spec 5) / LOCATION & 0.00 & 0.00 & -- & 0.00 & 0 & 19 \\
+rules (spec 5) / ORGANISM & 0.09 & 0.36 & 0.57 & 0.27 & 7 & 15 \\
+rules (spec 5) / QUANTITY & 0.10 & 0.44 & 0.29 & 0.90 & 92 & 30 \\
+rules (spec 5) / DATE\_TIME & 0.14 & 0.14 & 1.00 & 0.08 & 1 & 13 \\
+rules (spec 5) / WEATHER & 0.42 & 0.79 & 0.75 & 0.83 & 20 & 18 \\
+rules (spec 5) / all (micro) & 0.12 & 0.44 & 0.38 & 0.53 & 210 & 150 \\
+union of spec 5 systems / WATER\_BODY & 0.26 & 0.39 & 0.29 & 0.60 & 115 & 55 \\
+union of spec 5 systems / LOCATION & 0.14 & 0.21 & 0.13 & 0.47 & 67 & 19 \\
+union of spec 5 systems / ORGANISM & 0.09 & 0.36 & 0.57 & 0.27 & 7 & 15 \\
+union of spec 5 systems / QUANTITY & 0.14 & 0.41 & 0.26 & 0.93 & 108 & 30 \\
+union of spec 5 systems / DATE\_TIME & 0.36 & 0.50 & 0.47 & 0.54 & 15 & 13 \\
+union of spec 5 systems / WEATHER & 0.42 & 0.79 & 0.75 & 0.83 & 20 & 18 \\
+union of spec 5 systems / all (micro) & 0.22 & 0.40 & 0.29 & 0.64 & 332 & 150 \\
+GLiNER multi v2.1 (zero-shot) / WATER\_BODY & 0.41 & 0.55 & 0.44 & 0.71 & 88 & 55 \\
+GLiNER multi v2.1 (zero-shot) / LOCATION & 0.23 & 0.29 & 0.20 & 0.53 & 49 & 19 \\
+GLiNER multi v2.1 (zero-shot) / ORGANISM & 0.39 & 0.51 & 0.36 & 0.87 & 36 & 15 \\
+GLiNER multi v2.1 (zero-shot) / QUANTITY & 0.33 & 0.62 & 0.61 & 0.63 & 31 & 30 \\
+GLiNER multi v2.1 (zero-shot) / DATE\_TIME & 0.44 & 0.52 & 0.50 & 0.54 & 14 & 13 \\
+GLiNER multi v2.1 (zero-shot) / WEATHER & 0.54 & 0.68 & 0.61 & 0.78 & 23 & 18 \\
+GLiNER multi v2.1 (zero-shot) / all (micro) & 0.38 & 0.52 & 0.42 & 0.68 & 241 & 150 \\
+GLiNER + rules / WATER\_BODY & 0.34 & 0.47 & 0.34 & 0.78 & 126 & 55 \\
+GLiNER + rules / LOCATION & 0.23 & 0.29 & 0.20 & 0.53 & 49 & 19 \\
+GLiNER + rules / ORGANISM & 0.39 & 0.54 & 0.38 & 0.93 & 37 & 15 \\
+GLiNER + rules / QUANTITY & 0.20 & 0.44 & 0.29 & 0.97 & 101 & 30 \\
+GLiNER + rules / DATE\_TIME & 0.44 & 0.52 & 0.50 & 0.54 & 14 & 13 \\
+GLiNER + rules / WEATHER & 0.53 & 0.69 & 0.55 & 0.94 & 31 & 18 \\
+GLiNER + rules / all (micro) & 0.32 & 0.47 & 0.34 & 0.80 & 358 & 150 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,8 @@
+|                                             |   entity records |   entity P |   entity R |   entity F1 |   condition records |   condition P |   condition R |   condition F1 |
+|:--------------------------------------------|-----------------:|-----------:|-----------:|------------:|--------------------:|--------------:|--------------:|---------------:|
+| ('English original', 'spacy')               |            63.00 |       0.52 |       0.34 |        0.42 |              nan    |        nan    |        nan    |         nan    |
+| ('English original', 'rules')               |            63.00 |       0.49 |       0.59 |        0.53 |              105.00 |          0.55 |          0.30 |           0.39 |
+| ('non-English, original language', 'spacy') |            58.00 |       0.38 |       0.22 |        0.28 |              nan    |        nan    |        nan    |         nan    |
+| ('non-English, original language', 'rules') |            58.00 |       0.30 |       0.48 |        0.37 |              188.00 |          0.43 |          0.15 |           0.22 |
+| ('non-English, MT to English', 'spacy')     |            58.00 |       0.17 |       0.18 |        0.18 |              nan    |        nan    |        nan    |         nan    |
+| ('non-English, MT to English', 'rules')     |            58.00 |       0.26 |       0.40 |        0.32 |              188.00 |          0.50 |          0.30 |           0.37 |

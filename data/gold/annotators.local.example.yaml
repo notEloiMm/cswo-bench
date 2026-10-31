@@ -1,0 +1,6 @@
+# Copy to annotators.local.yaml (gitignored) and fill in. Only the IDs (A1..A3) are ever released.
+# email: the address used for your local Label Studio login (the merge step maps it to your ID).
+# languages: ISO codes you can read well enough to judge a note about water (guideline v0.1).
+A1: {name: "", email: "", languages: []}
+A2: {name: "", email: "", languages: []}
+A3: {name: "", email: "", languages: []}

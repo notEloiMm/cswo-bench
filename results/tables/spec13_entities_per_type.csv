@@ -1,0 +1,43 @@
+system,label,P exact,R exact,F1 exact,P partial,R partial,F1 partial,gold spans,predicted
+spaCy (spec 5),WATER_BODY,0.857,0.218,0.348,0.929,0.236,0.377,55,14
+spaCy (spec 5),LOCATION,0.093,0.211,0.129,0.163,0.368,0.226,19,43
+spaCy (spec 5),ORGANISM,,0.0,0.0,,0.0,0.0,15,0
+spaCy (spec 5),QUANTITY,0.16,0.133,0.145,0.64,0.533,0.582,30,25
+spaCy (spec 5),DATE_TIME,0.286,0.308,0.296,0.429,0.462,0.444,13,14
+spaCy (spec 5),WEATHER,,0.0,0.0,,0.0,0.0,18,0
+spaCy (spec 5),all (micro),0.25,0.16,0.195,0.438,0.28,0.341,150,96
+XLM-R NER (spec 5),WATER_BODY,0.667,0.291,0.405,0.917,0.4,0.557,55,24
+XLM-R NER (spec 5),LOCATION,0.146,0.316,0.2,0.195,0.421,0.267,19,41
+XLM-R NER (spec 5),ORGANISM,,0.0,0.0,,0.0,0.0,15,0
+XLM-R NER (spec 5),QUANTITY,,0.0,0.0,,0.0,0.0,30,0
+XLM-R NER (spec 5),DATE_TIME,,0.0,0.0,,0.0,0.0,13,0
+XLM-R NER (spec 5),WEATHER,,0.0,0.0,,0.0,0.0,18,0
+XLM-R NER (spec 5),all (micro),0.338,0.147,0.205,0.462,0.2,0.279,150,65
+rules (spec 5),WATER_BODY,0.056,0.091,0.069,0.367,0.6,0.455,55,90
+rules (spec 5),LOCATION,,0.0,0.0,,0.0,0.0,19,0
+rules (spec 5),ORGANISM,0.143,0.067,0.091,0.571,0.267,0.364,15,7
+rules (spec 5),QUANTITY,0.065,0.2,0.098,0.293,0.9,0.443,30,92
+rules (spec 5),DATE_TIME,1.0,0.077,0.143,1.0,0.077,0.143,13,1
+rules (spec 5),WEATHER,0.4,0.444,0.421,0.75,0.833,0.789,18,20
+rules (spec 5),all (micro),0.1,0.14,0.117,0.381,0.533,0.444,150,210
+union of spec 5 systems,WATER_BODY,0.191,0.4,0.259,0.287,0.6,0.388,55,115
+union of spec 5 systems,LOCATION,0.09,0.316,0.14,0.134,0.474,0.209,19,67
+union of spec 5 systems,ORGANISM,0.143,0.067,0.091,0.571,0.267,0.364,15,7
+union of spec 5 systems,QUANTITY,0.093,0.333,0.145,0.259,0.933,0.406,30,108
+union of spec 5 systems,DATE_TIME,0.333,0.385,0.357,0.467,0.538,0.5,13,15
+union of spec 5 systems,WEATHER,0.4,0.444,0.421,0.75,0.833,0.789,18,20
+union of spec 5 systems,all (micro),0.157,0.347,0.216,0.289,0.64,0.398,150,332
+GLiNER multi v2.1 (zero-shot),WATER_BODY,0.33,0.527,0.406,0.443,0.709,0.545,55,88
+GLiNER multi v2.1 (zero-shot),LOCATION,0.163,0.421,0.235,0.204,0.526,0.294,19,49
+GLiNER multi v2.1 (zero-shot),ORGANISM,0.278,0.667,0.392,0.361,0.867,0.51,15,36
+GLiNER multi v2.1 (zero-shot),QUANTITY,0.323,0.333,0.328,0.613,0.633,0.623,30,31
+GLiNER multi v2.1 (zero-shot),DATE_TIME,0.429,0.462,0.444,0.5,0.538,0.519,13,14
+GLiNER multi v2.1 (zero-shot),WEATHER,0.478,0.611,0.537,0.609,0.778,0.683,18,23
+GLiNER multi v2.1 (zero-shot),all (micro),0.307,0.493,0.379,0.423,0.68,0.522,150,241
+GLiNER + rules,WATER_BODY,0.246,0.564,0.343,0.341,0.782,0.475,55,126
+GLiNER + rules,LOCATION,0.163,0.421,0.235,0.204,0.526,0.294,19,49
+GLiNER + rules,ORGANISM,0.27,0.667,0.385,0.378,0.933,0.538,15,37
+GLiNER + rules,QUANTITY,0.129,0.433,0.198,0.287,0.967,0.443,30,101
+GLiNER + rules,DATE_TIME,0.429,0.462,0.444,0.5,0.538,0.519,13,14
+GLiNER + rules,WEATHER,0.419,0.722,0.531,0.548,0.944,0.694,18,31
+GLiNER + rules,all (micro),0.226,0.54,0.319,0.335,0.8,0.472,150,358

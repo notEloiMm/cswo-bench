@@ -1,0 +1,12 @@
+# Citizen-science portals published to GBIF. Only these datasets are harvested: GBIF also carries scientific
+# surveys (e.g. ICES DATRAS trawl data) whose "remarks" are boilerplate, not volunteer notes.
+# iNaturalist (50c9509d-...) is excluded here because it is collected directly from its API (avoids duplicates).
+# Keys resolved via https://api.gbif.org/v1/dataset/search on 2026-10-25.
+- {key: 38b4c89f-584c-41bb-bd8f-cd1def33e92f, platform: artportalen,     title: Artportalen,                           country: SE}
+- {key: df12ca07-f133-4550-ab3b-fde13f0e76ba, platform: laji_fi,         title: "Notebook, general observations",      country: FI}
+- {key: c6bbb6ef-ad16-4f3c-99e2-f693760173e0, platform: eelurikkus,      title: Estonian Nature Observations Database, country: EE}
+- {key: 8a863029-f435-446a-821e-275f4f641165, platform: observation_org, title: Observation.org,                       country: NL}
+- {key: b124e1e0-4755-430f-9eab-894f25a9b59c, platform: gbif_other,      title: Norwegian Species Observation Service, country: "NO"}
+- {key: 963a6b96-4d22-4428-86e4-afee52cf4a8e, platform: gbif_other,      title: Arter.dk,                              country: DK}
+- {key: 6ac3f774-d9fb-4796-b3e9-92bf6c81c084, platform: gbif_other,      title: NABU naturgucker,                      country: DE}
+- {key: e357cdec-295a-4b91-ac7d-abf5fbbc43bb, platform: gbif_other,      title: Faune-France opportunistic data,       country: FR}

@@ -1,0 +1,13 @@
+condition,positives_a,positives_b,kappa
+clear,2,21,0.133
+turbid,1,10,0.162
+coloured,0,0,
+algae,1,5,0.319
+foam,0,0,
+ice,1,3,0.49
+oil,0,0,
+litter,1,1,-0.013
+odour,0,0,
+high water,4,9,0.088
+low or dry,12,12,0.506
+flooding,0,0,

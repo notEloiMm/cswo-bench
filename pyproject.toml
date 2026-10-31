@@ -1,0 +1,85 @@
+[project]
+name = "cswo"
+version = "0.1.0"
+description = "CSWO-Bench: a multilingual multimodal benchmark of citizen science water observations"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "eloi.mas.marti", email = "eloi.mas.marti@estudiantat.upc.edu" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ca-core-news-sm",
+    "da-core-news-sm",
+    "de-core-news-sm",
+    "en-core-web-sm",
+    "es-core-news-sm",
+    "fi-core-news-sm",
+    "fr-core-news-sm",
+    "hr-core-news-sm",
+    "it-core-news-sm",
+    "lingua-language-detector>=2.1.1",
+    "lt-core-news-sm",
+    "matplotlib>=3.11.2",
+    "nb-core-news-sm",
+    "nl-core-news-sm",
+    "nltk>=3.10.4",
+    "numpy>=2.4.6",
+    "pandas>=3.1.0",
+    "pl-core-news-sm",
+    "preshed==3.0.10",  # 3.0.14 breaks spaCy model loading on Windows (OverflowError in tokenizer)
+    "protobuf>=7.36.2",
+    "pt-core-news-sm",
+    "pydantic>=2.14.1",
+    "python-dotenv>=1.2.4",
+    "pyyaml>=6.0.3",
+    "requests>=2.34.2",
+    "reverse-geocoder>=1.5.1",
+    "ro-core-news-sm",
+    "ru-core-news-sm",
+    "scikit-learn>=1.6.0",
+    "sentencepiece>=0.2.2",
+    "simplemma>=2.0.0",
+    "sl-core-news-sm",
+    "spacy>=3.8.16",
+    "statsmodels>=0.15.0",
+    "sv-core-news-sm",
+    "tabulate>=0.10.0",
+    "torch>=2.14.1",
+    "tqdm>=4.70.1",
+    "transformers>=5.20.2",
+    "xx-ent-wiki-sm",
+]
+
+[project.scripts]
+cswo = "cswo.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.uv.sources]
+en-core-web-sm = { url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl" }
+sv-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/sv_core_news_sm-3.8.0/sv_core_news_sm-3.8.0-py3-none-any.whl" }
+fi-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/fi_core_news_sm-3.8.0/fi_core_news_sm-3.8.0-py3-none-any.whl" }
+de-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.8.0/de_core_news_sm-3.8.0-py3-none-any.whl" }
+da-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/da_core_news_sm-3.8.0/da_core_news_sm-3.8.0-py3-none-any.whl" }
+nl-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/nl_core_news_sm-3.8.0/nl_core_news_sm-3.8.0-py3-none-any.whl" }
+fr-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-3.8.0/fr_core_news_sm-3.8.0-py3-none-any.whl" }
+es-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-3.8.0/es_core_news_sm-3.8.0-py3-none-any.whl" }
+pt-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-3.8.0/pt_core_news_sm-3.8.0-py3-none-any.whl" }
+it-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/it_core_news_sm-3.8.0/it_core_news_sm-3.8.0-py3-none-any.whl" }
+lt-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/lt_core_news_sm-3.8.0/lt_core_news_sm-3.8.0-py3-none-any.whl" }
+ru-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/ru_core_news_sm-3.8.0/ru_core_news_sm-3.8.0-py3-none-any.whl" }
+pl-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/pl_core_news_sm-3.8.0/pl_core_news_sm-3.8.0-py3-none-any.whl" }
+nb-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/nb_core_news_sm-3.8.0/nb_core_news_sm-3.8.0-py3-none-any.whl" }
+ro-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/ro_core_news_sm-3.8.0/ro_core_news_sm-3.8.0-py3-none-any.whl" }
+hr-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/hr_core_news_sm-3.8.0/hr_core_news_sm-3.8.0-py3-none-any.whl" }
+sl-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/sl_core_news_sm-3.8.0/sl_core_news_sm-3.8.0-py3-none-any.whl" }
+ca-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/ca_core_news_sm-3.8.0/ca_core_news_sm-3.8.0-py3-none-any.whl" }
+xx-ent-wiki-sm = { url = "https://github.com/explosion/spacy-models/releases/download/xx_ent_wiki_sm-3.8.0/xx_ent_wiki_sm-3.8.0-py3-none-any.whl" }

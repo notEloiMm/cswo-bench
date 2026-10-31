@@ -1,0 +1,7 @@
+platform,records with user id %,users,records per user (mean),records per user (median),top 1% users share %,top 10% users share %,Gini
+inaturalist,100.0,3044,28.22,4.0,29.75,75.15,0.83
+crowdwater,0.0,0,,,,,
+eyeonwater,42.26,808,13.99,4.0,20.42,63.69,0.73
+artportalen,100.0,6615,4.27,1.0,32.42,63.41,0.68
+laji_fi,97.93,879,18.61,2.0,61.13,85.52,0.88
+gbif_other,100.0,457,3.65,1.0,27.49,62.63,0.65

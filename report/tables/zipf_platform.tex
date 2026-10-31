@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Zipf fits by platform (spec 4): OLS of $\log_{10}$ frequency on $\log_{10}$ rank with 90\% confidence interval of the slope.}
+\label{tab:zipf-platform}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrrrr}
+\toprule
+platform & types & slope & 90\% lo & 90\% hi & $R^2$ & adj. $R^2$ & slope top-1000 \\
+\midrule
+inaturalist & 16{,}209 & -1.289 & -1.292 & -1.287 & 0.973 & 0.973 & -0.952 \\
+artportalen & 19{,}372 & -1.157 & -1.160 & -1.154 & 0.954 & 0.954 & -1.015 \\
+crowdwater & 13{,}376 & -1.087 & -1.090 & -1.084 & 0.963 & 0.963 & -0.952 \\
+laji\_fi & 9{,}511 & -0.972 & -0.976 & -0.968 & 0.950 & 0.950 & -0.949 \\
+Brown & 47{,}039 & -1.323 & -1.325 & -1.321 & 0.974 & 0.974 & -0.977 \\
+Reuters & 29{,}188 & -1.557 & -1.560 & -1.555 & 0.978 & 0.978 & -0.961 \\
+\bottomrule
+\end{tabular}
+}
+\end{table}

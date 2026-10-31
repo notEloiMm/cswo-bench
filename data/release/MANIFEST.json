@@ -1,0 +1,94 @@
+{
+ "name": "CSWO-Bench",
+ "version": "0.1.0",
+ "records": 225145,
+ "splits": {
+  "media_only": 144259,
+  "test": 10740,
+  "train": 62334,
+  "validation": 7812
+ },
+ "duplicates_dropped": [
+  "inaturalist:63500190",
+  "inaturalist:63500192",
+  "inaturalist:104359214",
+  "inaturalist:104359428"
+ ],
+ "files": {
+  "cswo_bench_crowdwater_odbl_media_only.jsonl.gz": {
+   "licence=ODbL-1.0": 51428,
+   "platform=crowdwater": 51428,
+   "records": 51428,
+   "with photo": 51428,
+   "sha256": "77bd0e9c660fc7725b53acd935265f6d60adc9213133ff3546e132caf6b1ed8a"
+  },
+  "cswo_bench_crowdwater_odbl_test.jsonl.gz": {
+   "licence=ODbL-1.0": 4096,
+   "platform=crowdwater": 4096,
+   "records": 4096,
+   "with photo": 4034,
+   "sha256": "9fb2904d7558afc71981992720a5e1e8fd7408e35ff910a343af3ca53bb35918"
+  },
+  "cswo_bench_crowdwater_odbl_train.jsonl.gz": {
+   "licence=ODbL-1.0": 9200,
+   "platform=crowdwater": 9200,
+   "records": 9200,
+   "with photo": 8992,
+   "sha256": "fd86145cc43a6f52655ee293b82ee4ac74e19bd4a6676f7213958b62caf5876f"
+  },
+  "cswo_bench_crowdwater_odbl_validation.jsonl.gz": {
+   "licence=ODbL-1.0": 1168,
+   "platform=crowdwater": 1168,
+   "records": 1168,
+   "with photo": 1150,
+   "sha256": "9b56be7b4b3b5e07b4b4368c692654cedb92b2a8ab088e041e4ccbadf6e5c1f9"
+  },
+  "cswo_bench_media_only.jsonl.gz": {
+   "licence=CC-BY-4.0": 43727,
+   "licence=CC0-1.0": 22346,
+   "licence=EyeOnWater-open": 26758,
+   "platform=eyeonwater": 26758,
+   "platform=inaturalist": 66073,
+   "records": 92831,
+   "with photo": 92831,
+   "sha256": "a185c950899547c8bdb101b0769537c1ad322f61d640629aae07f895a5b7bab1"
+  },
+  "cswo_bench_test.jsonl.gz": {
+   "licence=CC-BY-4.0": 3250,
+   "licence=CC0-1.0": 3394,
+   "platform=artportalen": 2823,
+   "platform=gbif_other": 167,
+   "platform=inaturalist": 1983,
+   "platform=laji_fi": 1671,
+   "records": 6644,
+   "with photo": 1614,
+   "sha256": "a20b46efe0ca4fb983494c132820814b21150a0faa43375d617f15e11eb70ee9"
+  },
+  "cswo_bench_train.jsonl.gz": {
+   "licence=CC-BY-4.0": 25958,
+   "licence=CC0-1.0": 27176,
+   "platform=artportalen": 22577,
+   "platform=gbif_other": 1336,
+   "platform=inaturalist": 15856,
+   "platform=laji_fi": 13365,
+   "records": 53134,
+   "with photo": 12861,
+   "sha256": "b3baded0741d6fbad4cfe2495229f9be1b7561ba1fba672c29821fd4aafc4b3c"
+  },
+  "cswo_bench_validation.jsonl.gz": {
+   "licence=CC-BY-4.0": 3243,
+   "licence=CC0-1.0": 3401,
+   "platform=artportalen": 2823,
+   "platform=gbif_other": 167,
+   "platform=inaturalist": 1983,
+   "platform=laji_fi": 1671,
+   "records": 6644,
+   "with photo": 1622,
+   "sha256": "5590f1aef759b409b01a8eff28b7889c475f39dcfac205e734b07df34199ddb9"
+  },
+  "gold.jsonl": {
+   "records": 320,
+   "sha256": "4b082a85af23afb614d00d2121b6dec4c800ff5110301a427e2b55e06031388a"
+  }
+ }
+}

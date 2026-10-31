@@ -1,0 +1,6 @@
+﻿record_id,field,platform,language,text_original,text_en,A1,A2,A3,comments,resolved,hard_case
+artportalen:1492267739,relevance,artportalen,sv,Småbåtshamnen vid Stensökanalen,Marina at Stensö Canal,not about water,about water,about water,,A2,yes
+crowdwater:1227466,image_text,crowdwater,et,"Vett korgi pealt 0,02m ja soolakatse","0,02m water from the cap and salt test",partly consistent,consistent,consistent,,A2,yes
+crowdwater:514492,relevance,crowdwater,en,Monitoring location 0164570 gage height is 1.01 ft,(original is English),uncertain,about water,about water,,A2,yes
+crowdwater:514492,image_text,crowdwater,en,Monitoring location 0164570 gage height is 1.01 ft,(original is English),cannot judge,consistent,consistent,,A2,no
+laji_fi:3448009538,relevance,laji_fi,fi,saalistuspaikkoja ja siirtymäreittejä,Predation sites and migration routes,not about water,uncertain,not about water,,A1,yes

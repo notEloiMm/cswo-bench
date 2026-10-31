@@ -1,0 +1,156 @@
+|                                                                              |   support |     P |     R |    F1 |
+|:-----------------------------------------------------------------------------|----------:|------:|------:|------:|
+| ('habitat', 'distilbert-multilingual', False, 'brant bäck i barrskog')       |    14.000 | 1.000 | 0.929 | 0.963 |
+| ('habitat', 'distilbert-multilingual', False, 'bäck')                        |     4.000 | 0.133 | 0.500 | 0.211 |
+| ('habitat', 'distilbert-multilingual', False, 'damm')                        |     4.000 | 0.500 | 0.750 | 0.600 |
+| ('habitat', 'distilbert-multilingual', False, 'fors i medelstor å')          |    14.000 | 1.000 | 1.000 | 1.000 |
+| ('habitat', 'distilbert-multilingual', False, 'kall, liten bäck i barrskog') |     5.000 | 0.833 | 1.000 | 0.909 |
+| ('habitat', 'distilbert-multilingual', False, 'sjö')                         |    21.000 | 1.000 | 0.143 | 0.250 |
+| ('habitat', 'distilbert-multilingual', False, 'sjöstrand')                   |     2.000 | 0.400 | 1.000 | 0.571 |
+| ('habitat', 'distilbert-multilingual', False, 'vattendrag')                  |    37.000 | 0.829 | 0.919 | 0.872 |
+| ('habitat', 'distilbert-multilingual', False, 'älv')                         |     3.000 | 1.000 | 0.333 | 0.500 |
+| ('habitat', 'distilbert-multilingual', False, 'å')                           |    13.000 | 0.462 | 0.462 | 0.462 |
+| ('habitat', 'distilbert-multilingual', True, 'brant bäck i barrskog')        |    14.000 | 1.000 | 0.786 | 0.880 |
+| ('habitat', 'distilbert-multilingual', True, 'bäck')                         |     4.000 | 0.222 | 0.500 | 0.308 |
+| ('habitat', 'distilbert-multilingual', True, 'damm')                         |     4.000 | 0.600 | 0.750 | 0.667 |
+| ('habitat', 'distilbert-multilingual', True, 'fors i medelstor å')           |    14.000 | 1.000 | 1.000 | 1.000 |
+| ('habitat', 'distilbert-multilingual', True, 'kall, liten bäck i barrskog')  |     5.000 | 0.625 | 1.000 | 0.769 |
+| ('habitat', 'distilbert-multilingual', True, 'sjö')                          |    21.000 | 1.000 | 0.190 | 0.320 |
+| ('habitat', 'distilbert-multilingual', True, 'sjöstrand')                    |     2.000 | 0.400 | 1.000 | 0.571 |
+| ('habitat', 'distilbert-multilingual', True, 'vattendrag')                   |    37.000 | 0.850 | 0.919 | 0.883 |
+| ('habitat', 'distilbert-multilingual', True, 'älv')                          |     3.000 | 0.400 | 0.667 | 0.500 |
+| ('habitat', 'distilbert-multilingual', True, 'å')                            |    13.000 | 0.562 | 0.692 | 0.621 |
+| ('habitat', 'majority', False, 'brant bäck i barrskog')                      |    14.000 | 0.000 | 0.000 | 0.000 |
+| ('habitat', 'majority', False, 'bäck')                                       |     4.000 | 0.000 | 0.000 | 0.000 |
+| ('habitat', 'majority', False, 'damm')                                       |     4.000 | 0.000 | 0.000 | 0.000 |
+| ('habitat', 'majority', False, 'fors i medelstor å')                         |    14.000 | 0.000 | 0.000 | 0.000 |
+| ('habitat', 'majority', False, 'kall, liten bäck i barrskog')                |     5.000 | 0.000 | 0.000 | 0.000 |
+| ('habitat', 'majority', False, 'sjö')                                        |    21.000 | 0.000 | 0.000 | 0.000 |
+| ('habitat', 'majority', False, 'sjöstrand')                                  |     2.000 | 0.000 | 0.000 | 0.000 |
+| ('habitat', 'majority', False, 'vattendrag')                                 |    37.000 | 0.316 | 1.000 | 0.481 |
+| ('habitat', 'majority', False, 'älv')                                        |     3.000 | 0.000 | 0.000 | 0.000 |
+| ('habitat', 'majority', False, 'å')                                          |    13.000 | 0.000 | 0.000 | 0.000 |
+| ('habitat', 'tfidf-char+svm', False, 'brant bäck i barrskog')                |    14.000 | 1.000 | 1.000 | 1.000 |
+| ('habitat', 'tfidf-char+svm', False, 'bäck')                                 |     4.000 | 0.125 | 0.250 | 0.167 |
+| ('habitat', 'tfidf-char+svm', False, 'damm')                                 |     4.000 | 0.000 | 0.000 | 0.000 |
+| ('habitat', 'tfidf-char+svm', False, 'fors i medelstor å')                   |    14.000 | 1.000 | 1.000 | 1.000 |
+| ('habitat', 'tfidf-char+svm', False, 'kall, liten bäck i barrskog')          |     5.000 | 1.000 | 1.000 | 1.000 |
+| ('habitat', 'tfidf-char+svm', False, 'sjö')                                  |    21.000 | 0.625 | 0.476 | 0.541 |
+| ('habitat', 'tfidf-char+svm', False, 'sjöstrand')                            |     2.000 | 0.667 | 1.000 | 0.800 |
+| ('habitat', 'tfidf-char+svm', False, 'vattendrag')                           |    37.000 | 0.919 | 0.919 | 0.919 |
+| ('habitat', 'tfidf-char+svm', False, 'älv')                                  |     3.000 | 0.750 | 1.000 | 0.857 |
+| ('habitat', 'tfidf-char+svm', False, 'å')                                    |    13.000 | 0.625 | 0.769 | 0.690 |
+| ('habitat', 'tfidf-char+svm', True, 'brant bäck i barrskog')                 |    14.000 | 1.000 | 1.000 | 1.000 |
+| ('habitat', 'tfidf-char+svm', True, 'bäck')                                  |     4.000 | 0.125 | 0.250 | 0.167 |
+| ('habitat', 'tfidf-char+svm', True, 'damm')                                  |     4.000 | 0.000 | 0.000 | 0.000 |
+| ('habitat', 'tfidf-char+svm', True, 'fors i medelstor å')                    |    14.000 | 1.000 | 1.000 | 1.000 |
+| ('habitat', 'tfidf-char+svm', True, 'kall, liten bäck i barrskog')           |     5.000 | 1.000 | 1.000 | 1.000 |
+| ('habitat', 'tfidf-char+svm', True, 'sjö')                                   |    21.000 | 0.667 | 0.476 | 0.556 |
+| ('habitat', 'tfidf-char+svm', True, 'sjöstrand')                             |     2.000 | 0.667 | 1.000 | 0.800 |
+| ('habitat', 'tfidf-char+svm', True, 'vattendrag')                            |    37.000 | 0.919 | 0.919 | 0.919 |
+| ('habitat', 'tfidf-char+svm', True, 'älv')                                   |     3.000 | 0.600 | 1.000 | 0.750 |
+| ('habitat', 'tfidf-char+svm', True, 'å')                                     |    13.000 | 0.625 | 0.769 | 0.690 |
+| ('habitat', 'tfidf-word+svm', False, 'brant bäck i barrskog')                |    14.000 | 1.000 | 1.000 | 1.000 |
+| ('habitat', 'tfidf-word+svm', False, 'bäck')                                 |     4.000 | 0.400 | 0.500 | 0.444 |
+| ('habitat', 'tfidf-word+svm', False, 'damm')                                 |     4.000 | 0.500 | 0.250 | 0.333 |
+| ('habitat', 'tfidf-word+svm', False, 'fors i medelstor å')                   |    14.000 | 1.000 | 1.000 | 1.000 |
+| ('habitat', 'tfidf-word+svm', False, 'kall, liten bäck i barrskog')          |     5.000 | 1.000 | 1.000 | 1.000 |
+| ('habitat', 'tfidf-word+svm', False, 'sjö')                                  |    21.000 | 0.692 | 0.429 | 0.529 |
+| ('habitat', 'tfidf-word+svm', False, 'sjöstrand')                            |     2.000 | 0.500 | 1.000 | 0.667 |
+| ('habitat', 'tfidf-word+svm', False, 'vattendrag')                           |    37.000 | 0.850 | 0.919 | 0.883 |
+| ('habitat', 'tfidf-word+svm', False, 'älv')                                  |     3.000 | 0.600 | 1.000 | 0.750 |
+| ('habitat', 'tfidf-word+svm', False, 'å')                                    |    13.000 | 0.600 | 0.692 | 0.643 |
+| ('habitat', 'tfidf-word+svm', True, 'brant bäck i barrskog')                 |    14.000 | 1.000 | 1.000 | 1.000 |
+| ('habitat', 'tfidf-word+svm', True, 'bäck')                                  |     4.000 | 0.400 | 0.500 | 0.444 |
+| ('habitat', 'tfidf-word+svm', True, 'damm')                                  |     4.000 | 0.500 | 0.250 | 0.333 |
+| ('habitat', 'tfidf-word+svm', True, 'fors i medelstor å')                    |    14.000 | 1.000 | 1.000 | 1.000 |
+| ('habitat', 'tfidf-word+svm', True, 'kall, liten bäck i barrskog')           |     5.000 | 1.000 | 1.000 | 1.000 |
+| ('habitat', 'tfidf-word+svm', True, 'sjö')                                   |    21.000 | 0.692 | 0.429 | 0.529 |
+| ('habitat', 'tfidf-word+svm', True, 'sjöstrand')                             |     2.000 | 0.500 | 1.000 | 0.667 |
+| ('habitat', 'tfidf-word+svm', True, 'vattendrag')                            |    37.000 | 0.850 | 0.919 | 0.883 |
+| ('habitat', 'tfidf-word+svm', True, 'älv')                                   |     3.000 | 0.500 | 1.000 | 0.667 |
+| ('habitat', 'tfidf-word+svm', True, 'å')                                     |    13.000 | 0.643 | 0.692 | 0.667 |
+| ('water_level', 'distilbert-multilingual', False, '+1')                      |   169.000 | 0.600 | 0.124 | 0.206 |
+| ('water_level', 'distilbert-multilingual', False, '+2')                      |    78.000 | 0.214 | 0.423 | 0.284 |
+| ('water_level', 'distilbert-multilingual', False, '+3')                      |    26.000 | 0.200 | 0.077 | 0.111 |
+| ('water_level', 'distilbert-multilingual', False, '+4')                      |    22.000 | 0.139 | 0.227 | 0.172 |
+| ('water_level', 'distilbert-multilingual', False, '+5')                      |    12.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'distilbert-multilingual', False, '+7')                      |    13.000 | 0.094 | 0.231 | 0.133 |
+| ('water_level', 'distilbert-multilingual', False, '-1')                      |    83.000 | 0.243 | 0.108 | 0.150 |
+| ('water_level', 'distilbert-multilingual', False, '-2')                      |    57.000 | 0.124 | 0.211 | 0.156 |
+| ('water_level', 'distilbert-multilingual', False, '-3')                      |    37.000 | 0.289 | 0.351 | 0.317 |
+| ('water_level', 'distilbert-multilingual', False, '-4')                      |    39.000 | 0.204 | 0.538 | 0.296 |
+| ('water_level', 'distilbert-multilingual', False, '-5')                      |    10.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'distilbert-multilingual', False, '-6')                      |    32.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'distilbert-multilingual', True, '+1')                       |   169.000 | 0.529 | 0.107 | 0.177 |
+| ('water_level', 'distilbert-multilingual', True, '+2')                       |    78.000 | 0.213 | 0.449 | 0.289 |
+| ('water_level', 'distilbert-multilingual', True, '+3')                       |    26.000 | 0.200 | 0.115 | 0.146 |
+| ('water_level', 'distilbert-multilingual', True, '+4')                       |    22.000 | 0.138 | 0.182 | 0.157 |
+| ('water_level', 'distilbert-multilingual', True, '+5')                       |    12.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'distilbert-multilingual', True, '+7')                       |    13.000 | 0.070 | 0.231 | 0.107 |
+| ('water_level', 'distilbert-multilingual', True, '-1')                       |    83.000 | 0.188 | 0.157 | 0.171 |
+| ('water_level', 'distilbert-multilingual', True, '-2')                       |    57.000 | 0.132 | 0.211 | 0.162 |
+| ('water_level', 'distilbert-multilingual', True, '-3')                       |    37.000 | 0.310 | 0.351 | 0.329 |
+| ('water_level', 'distilbert-multilingual', True, '-4')                       |    39.000 | 0.216 | 0.282 | 0.244 |
+| ('water_level', 'distilbert-multilingual', True, '-5')                       |    10.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'distilbert-multilingual', True, '-6')                       |    32.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'majority', False, '+1')                                     |   169.000 | 0.292 | 1.000 | 0.452 |
+| ('water_level', 'majority', False, '+2')                                     |    78.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'majority', False, '+3')                                     |    26.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'majority', False, '+4')                                     |    22.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'majority', False, '+5')                                     |    12.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'majority', False, '+7')                                     |    13.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'majority', False, '-1')                                     |    83.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'majority', False, '-2')                                     |    57.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'majority', False, '-3')                                     |    37.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'majority', False, '-4')                                     |    39.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'majority', False, '-5')                                     |    10.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'majority', False, '-6')                                     |    32.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'tfidf-char+svm', False, '+1')                               |   169.000 | 0.521 | 0.225 | 0.314 |
+| ('water_level', 'tfidf-char+svm', False, '+2')                               |    78.000 | 0.236 | 0.474 | 0.315 |
+| ('water_level', 'tfidf-char+svm', False, '+3')                               |    26.000 | 0.219 | 0.269 | 0.241 |
+| ('water_level', 'tfidf-char+svm', False, '+4')                               |    22.000 | 0.200 | 0.182 | 0.190 |
+| ('water_level', 'tfidf-char+svm', False, '+5')                               |    12.000 | 0.333 | 0.167 | 0.222 |
+| ('water_level', 'tfidf-char+svm', False, '+7')                               |    13.000 | 0.250 | 0.231 | 0.240 |
+| ('water_level', 'tfidf-char+svm', False, '-1')                               |    83.000 | 0.322 | 0.458 | 0.378 |
+| ('water_level', 'tfidf-char+svm', False, '-2')                               |    57.000 | 0.107 | 0.158 | 0.128 |
+| ('water_level', 'tfidf-char+svm', False, '-3')                               |    37.000 | 0.100 | 0.081 | 0.090 |
+| ('water_level', 'tfidf-char+svm', False, '-4')                               |    39.000 | 0.263 | 0.128 | 0.172 |
+| ('water_level', 'tfidf-char+svm', False, '-5')                               |    10.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'tfidf-char+svm', False, '-6')                               |    32.000 | 0.467 | 0.219 | 0.298 |
+| ('water_level', 'tfidf-char+svm', True, '+1')                                |   169.000 | 0.514 | 0.225 | 0.313 |
+| ('water_level', 'tfidf-char+svm', True, '+2')                                |    78.000 | 0.237 | 0.462 | 0.313 |
+| ('water_level', 'tfidf-char+svm', True, '+3')                                |    26.000 | 0.190 | 0.308 | 0.235 |
+| ('water_level', 'tfidf-char+svm', True, '+4')                                |    22.000 | 0.235 | 0.182 | 0.205 |
+| ('water_level', 'tfidf-char+svm', True, '+5')                                |    12.000 | 0.333 | 0.167 | 0.222 |
+| ('water_level', 'tfidf-char+svm', True, '+7')                                |    13.000 | 0.120 | 0.231 | 0.158 |
+| ('water_level', 'tfidf-char+svm', True, '-1')                                |    83.000 | 0.330 | 0.434 | 0.375 |
+| ('water_level', 'tfidf-char+svm', True, '-2')                                |    57.000 | 0.127 | 0.158 | 0.141 |
+| ('water_level', 'tfidf-char+svm', True, '-3')                                |    37.000 | 0.114 | 0.108 | 0.111 |
+| ('water_level', 'tfidf-char+svm', True, '-4')                                |    39.000 | 0.278 | 0.128 | 0.175 |
+| ('water_level', 'tfidf-char+svm', True, '-5')                                |    10.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'tfidf-char+svm', True, '-6')                                |    32.000 | 0.400 | 0.188 | 0.255 |
+| ('water_level', 'tfidf-word+svm', False, '+1')                               |   169.000 | 0.482 | 0.237 | 0.317 |
+| ('water_level', 'tfidf-word+svm', False, '+2')                               |    78.000 | 0.216 | 0.423 | 0.286 |
+| ('water_level', 'tfidf-word+svm', False, '+3')                               |    26.000 | 0.229 | 0.308 | 0.262 |
+| ('water_level', 'tfidf-word+svm', False, '+4')                               |    22.000 | 0.158 | 0.136 | 0.146 |
+| ('water_level', 'tfidf-word+svm', False, '+5')                               |    12.000 | 0.278 | 0.417 | 0.333 |
+| ('water_level', 'tfidf-word+svm', False, '+7')                               |    13.000 | 0.125 | 0.154 | 0.138 |
+| ('water_level', 'tfidf-word+svm', False, '-1')                               |    83.000 | 0.212 | 0.253 | 0.231 |
+| ('water_level', 'tfidf-word+svm', False, '-2')                               |    57.000 | 0.130 | 0.158 | 0.143 |
+| ('water_level', 'tfidf-word+svm', False, '-3')                               |    37.000 | 0.125 | 0.081 | 0.098 |
+| ('water_level', 'tfidf-word+svm', False, '-4')                               |    39.000 | 0.178 | 0.205 | 0.190 |
+| ('water_level', 'tfidf-word+svm', False, '-5')                               |    10.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'tfidf-word+svm', False, '-6')                               |    32.000 | 0.400 | 0.125 | 0.190 |
+| ('water_level', 'tfidf-word+svm', True, '+1')                                |   169.000 | 0.455 | 0.207 | 0.285 |
+| ('water_level', 'tfidf-word+svm', True, '+2')                                |    78.000 | 0.194 | 0.423 | 0.266 |
+| ('water_level', 'tfidf-word+svm', True, '+3')                                |    26.000 | 0.237 | 0.346 | 0.281 |
+| ('water_level', 'tfidf-word+svm', True, '+4')                                |    22.000 | 0.316 | 0.273 | 0.293 |
+| ('water_level', 'tfidf-word+svm', True, '+5')                                |    12.000 | 0.250 | 0.250 | 0.250 |
+| ('water_level', 'tfidf-word+svm', True, '+7')                                |    13.000 | 0.069 | 0.154 | 0.095 |
+| ('water_level', 'tfidf-word+svm', True, '-1')                                |    83.000 | 0.333 | 0.325 | 0.329 |
+| ('water_level', 'tfidf-word+svm', True, '-2')                                |    57.000 | 0.175 | 0.193 | 0.183 |
+| ('water_level', 'tfidf-word+svm', True, '-3')                                |    37.000 | 0.108 | 0.108 | 0.108 |
+| ('water_level', 'tfidf-word+svm', True, '-4')                                |    39.000 | 0.259 | 0.179 | 0.212 |
+| ('water_level', 'tfidf-word+svm', True, '-5')                                |    10.000 | 0.000 | 0.000 | 0.000 |
+| ('water_level', 'tfidf-word+svm', True, '-6')                                |    32.000 | 0.364 | 0.125 | 0.186 |

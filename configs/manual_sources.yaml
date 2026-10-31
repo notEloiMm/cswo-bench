@@ -1,0 +1,7 @@
+# Licences for sources downloaded by hand through a click-through. Fill in from the licence text shown at
+# download time (and add a row to data/licence_log.csv with: uv run python -m cswo.collect.manual crowdwater).
+# Records stay out of the corpus until the licence is set to a redistributable code (CC0-1.0, CC-BY-4.0, ODC-By-1.0, ODbL-1.0).
+# CrowdWater: ODbL as shown in the click-through at download (reported by the group, 2026-10-25). ODbL is share-alike:
+# the CrowdWater subset must be released under ODbL with attribution to CrowdWater (University of Zurich).
+crowdwater:   {licence: ODbL-1.0, licence_url: https://opendatacommons.org/licenses/odbl/1-0/, downloaded_by: null}
+waterrangers: {licence: ODC-By-1.0, licence_url: https://opendatacommons.org/licenses/by/1-0/, downloaded_by: null}

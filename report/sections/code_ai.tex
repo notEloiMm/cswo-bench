@@ -1,0 +1,24 @@
+\section{Code availability}
+\label{sec:code}
+
+All source code, the fixed splits, the gold labels, the results and the data card are in the repository
+\url{https://github.com/notEloiMm/cswo-bench} (MIT licence for the code). The pipeline is a Python package
+(\texttt{src/cswo/}) with one command per step listed in the README. The steps that need a GPU
+are Jupyter notebooks in \texttt{notebooks/} that run on a free Google Colab T4:
+\begin{itemize}
+  \item \texttt{colab\_translate.ipynb} --- translation to English (spec 2);
+  \item \texttt{colab\_llm\_annotate.ipynb} --- LLM second annotator for the gold set (spec 6);
+  \item \texttt{colab\_bert.ipynb} --- DistilBERT baselines (spec 8);
+  \item \texttt{colab\_clip.ipynb} --- CLIP/SigLIP image--text similarity (spec 9);
+  \item \texttt{colab\_zeroshot.ipynb} --- zero-shot LLM/VLM evaluation (spec 10).
+\end{itemize}
+The evaluation scripts read only committed files (gold labels, extractor outputs, model predictions), so every table
+of this report can be reproduced without the full corpus.
+
+\section{Use of AI tools}
+\label{sec:ai}
+
+\paragraph{AI assistance in producing the project.} 
+We used LLMs in different context throughout the project. 
+We used Claude for generating tedious coding tasks and autocompletion - always supervised. It was also used as help for plotting plots.  Further we used it for generating scripts and the 
+generation of latex tables - with Gemini. 

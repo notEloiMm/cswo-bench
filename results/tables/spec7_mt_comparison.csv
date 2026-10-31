@@ -1,0 +1,7 @@
+text,system,entity records,entity P,entity R,entity F1,condition records,condition P,condition R,condition F1
+English original,spacy,63,0.525,0.344,0.416,,,,
+English original,rules,63,0.487,0.591,0.534,105.0,0.545,0.3,0.387
+"non-English, original language",spacy,58,0.379,0.22,0.278,,,,
+"non-English, original language",rules,58,0.296,0.48,0.366,188.0,0.429,0.15,0.222
+"non-English, MT to English",spacy,58,0.173,0.18,0.176,,,,
+"non-English, MT to English",rules,58,0.263,0.4,0.317,188.0,0.5,0.3,0.375
